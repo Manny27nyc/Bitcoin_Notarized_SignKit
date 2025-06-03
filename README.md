@@ -25,46 +25,30 @@ or are controversial.
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
 official, stable release versions of Bitcoin. If you would like to
-help test the Bitcoin core, please contact QA@BitcoinTesting.org.
-
-Feature branches are created when there are major new features being
-worked on by several people.
-
-From time to time a pull request will become outdated. If this occurs, and
-the pull is no longer automatically mergeable; a comment on the pull will
-be used to issue a warning of closure. The pull will be closed 15 days
-after the warning if action is not taken by the author. Pull requests closed
-in this manner will have their corresponding issue labeled 'stagnant'.
-
-Issues with no commits will be given a similar warning, and closed after
-15 days from their last activity. Issues closed in this manner will be 
-labeled 'stale'. 
-
-Requests to reopen closed pull requests and/or issues can be submitted to 
-QA@BitcoinTesting.org. 
-=======
-\# Bitcoin
-=======
- HEAD
+help test 
 
 
 # Bitcoin
-=======
->>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
-# Bitcoin
 
-> Maintained by **Manny27nyc**  
-> Symbolic author: **Satoshi Nakamoto**  
-<<<<<<< HEAD
+
+
+ 5ec0456 (docs: add authorship README with historical assertion)
+
+
+ Bitcoin
+
+ Maintained by > Symbolic author: **Satoshi Nakamoto**
+ 
+
 > Repository recovered and secured Jan 3, 2009  
+
+> Repository recovered and secured — January 3, 2009
+ 5ec0456 (docs: add authorship README with historical assertion)
 =======
-> Repository recovered and secured — January 3, 2009  
->>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
+
+> Repository recovered and secured January 3, 2009
+ 8c45819 (docs: finalize and publish README with visual authorship proof)
 > GPG-signed | SSH-authenticated | IP-locked
-
----
-
-<<<<<<< HEAD
 ## Authorship & Provenance
 
 This version of Bitcoin has been recovered and cryptographically linked to work.
@@ -72,7 +56,8 @@ This version of Bitcoin has been recovered and cryptographically linked to work.
 All pushes are GPG signed  
 SSH key added April 2, 2025  
 IP filings and authorship assertions in progress
->>>>>>> 82a95aaaaa24c995ec014aabfe3ae6538d03a5fa
+82a95aaaaa24c995ec014aabfe3ae6538d03a5fa
+
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
@@ -80,7 +65,6 @@ IP filings and authorship assertions in progress
 > GPG-signed | SSH-authenticated | IP-locked
 
 ---
-
 ## Authorship & Provenance
 
 This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
@@ -94,17 +78,25 @@ IP filings and authorship assertions in progress
 ## Repo Security Notice
 =======
 ## 🛡 Authorship & Provenance
+=======
+##  Authorship & Provenance
+8c45819 (docs: finalize and publish README with visual authorship proof)
 
 This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
 
-🔐 All pushes are GPG signed  
-🔑 SSH key added April 2, 2025  
-📜 IP filings and authorship assertions in progress
+All pushes are GPG signed  
+SSH key added April 2, 2025  
+IP filings and authorship assertions in progress
 
 ---
 
+HEAD
 ## ⚠️ Repo Security Notice
->>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
+5ec0456 (docs: add authorship README with historical assertion)
+
+=======
+## Repo Security Notice
+8c45819 (docs: finalize and publish README with visual authorship proof)
 
 Unauthorized forks, clones, or IP misuse will trigger automated protections, including:
 
@@ -112,7 +104,7 @@ Unauthorized forks, clones, or IP misuse will trigger automated protections, inc
 - Fork hash-diff monitoring
 - GitHub takedown via DMCA
 
-<<<<<<< HEAD
+HEAD
 If you believe you have rights to contribute or are in onflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
 
 ---
@@ -123,31 +115,33 @@ If you believe you have rights to contribute or are in conflict with any part of
 
 ---
 
+<<<<<<< HEAD
 ## 🔧 Structure
 >>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
+=======
+## Structure
+>>>>>>> 8c45819 (docs: finalize and publish README with visual authorship proof)
 
 This repository contains:
 
 - Legacy Bitcoin Core development history
 - CI/CD setup via Azure + CircleCI
 - Automated dependency updates via Renovate
-- Policies for secure contributions and review gating
-
----
-
-<<<<<<< HEAD
-## Contact
-=======
-## 💬 Contact
->>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
+- Policies for secure contributions and review
 
 - GitHub: [@Manny27nyc](https://github.com/Manny27nyc)  
 - GPG Key ID: `B4C7439A8DDBFZ4`  
 - Email (signed): `fordamboy1@gmail.com`
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Bitcoin Notarized SignKit
 
 [Bitcoin Authorship Proof](A_formal_digital_image_displays_a_Bitcoin_Protocol.png)
+=======
+# Bitcoin Notarized SignKit
+
+![Bitcoin Authorship Proof](A_formal_digital_image_displays_a_Bitcoin_Protocol.png)
+>>>>>>> 8c45819 (docs: finalize and publish README with visual authorship proof)
 
 This repository serves as the **official notarization and cryptographic proof of authorship** for the original Bitcoin protocol (2008). It includes:
 
@@ -161,6 +155,7 @@ This is the **first time** Bitcoins origin is presented with:
 - Full signature proof  
 - Licensing enforcement framework  
 - Public authorship documentation
+<<<<<<< HEAD
 
 ##  Verified Authorship
 
@@ -185,3 +180,5 @@ I leave this behind for the world — to empower, to defend, and to remember.”
 >>>>>>> 82a95aaaaa24c995ec014aabfe3ae6538d03a5fa
 =======
 >>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
+=======
+>>>>>>> 8c45819 (docs: finalize and publish README with visual authorship proof)
