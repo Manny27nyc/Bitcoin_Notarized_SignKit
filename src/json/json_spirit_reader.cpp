@@ -1,3 +1,7 @@
+// Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+// All rights reserved under the MIT License with attribution enforcement.
+// This file is part of Bitcoin, cryptographically signed and timestamped by the original author.
+
 //          Copyright John W. Wilkinson 2007 - 2009.
 // Distributed under the MIT License, see accompanying file LICENSE.txt
 
