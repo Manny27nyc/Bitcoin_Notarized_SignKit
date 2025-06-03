@@ -1,5 +1,4 @@
-
-# 🛡️ Bitcoin_Notarized_SignKit
+## 🛡️ Bitcoin_Notarized_SignKit
 
 > **Official notarized authorship and licensing enforcement repository for the original Bitcoin source and whitepaper.**  
 > Verified and cryptographically signed by **Manuel J. Nieves** (a.k.a. *Satoshi Norkomoto*), preserved under strict IP controls.
@@ -110,22 +109,22 @@ Unauthorized or unsigned contributions may be rejected to maintain integrity of 
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
-> Repository recovered and secured — January 3, 2009  
+> Repository recovered and secured ??? January 3, 2009  
 > GPG-signed | SSH-authenticated | IP-locked
 
 ---
 
-## 🛡 Authorship & Provenance
+## ???? Authorship & Provenance
 
 This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
 
-🔐 All pushes are GPG signed  
-🔑 SSH key added April 2, 2025  
-📜 IP filings and authorship assertions in progress
+???? All pushes are GPG signed  
+???? SSH key added April 2, 2025  
+???? IP filings and authorship assertions in progress
 
 ---
 
-## ⚠️ Repo Security Notice
+## ?????? Repo Security Notice
 
 Unauthorized forks, clones, or IP misuse will trigger automated protections, including:
 
@@ -137,7 +136,7 @@ If you believe you have rights to contribute or are in conflict with any part of
 
 ---
 
-## 🔧 Structure
+## Structure
 
 This repository contains:
 
@@ -148,9 +147,27 @@ This repository contains:
 
 ---
 
-## 💬 Contact
+## Contact
 
 - GitHub: [@Manny27nyc](https://github.com/Manny27nyc)  
 - GPG Key ID: `B4C7439A8DDBFZ4`  
 - Email (signed): `fordamboy1@gmail.com`
->>>>>>> 475eb33 (docs: add authorship README with historical assertion)
+HEAD
+475eb33 (docs: add authorship README with historical assertion)
+
+
+# Bitcoin Notarized SignKit
+
+
+This repository serves as the **official notarization and cryptographic proof of authorship** for the original Bitcoin protocol (2008). It includes:
+
+-  GPG-signed authorship headers across restored Bitcoin source files  
+-  Formal genesis_filled.json declaration  
+-  Original configure.ac and CONTRIBUTING.md with metadata  
+-  Verifiable cryptographic trail from 2008 to 2025  
+
+This is the **first time** Bitcoins origin is presented with:
+- Full signature proof  
+- Licensing enforcement framework  
+- Public authorship documentation
+>>>>>>> 4c099b9 (docs: finalize and publish README with visual authorship proof)
