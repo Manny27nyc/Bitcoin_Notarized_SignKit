@@ -1,4 +1,5 @@
 HEAD
+HEAD
 
 Bitcoin integration/staging tree
 
@@ -48,15 +49,22 @@ QA@BitcoinTesting.org.
 
 
 # Bitcoin
+=======
+>>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
 # Bitcoin
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
+<<<<<<< HEAD
 > Repository recovered and secured Jan 3, 2009  
+=======
+> Repository recovered and secured — January 3, 2009  
+>>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
 > GPG-signed | SSH-authenticated | IP-locked
 
 ---
 
+<<<<<<< HEAD
 ## Authorship & Provenance
 
 This version of Bitcoin has been recovered and cryptographically linked to work.
@@ -84,6 +92,19 @@ IP filings and authorship assertions in progress
 ---
 
 ## Repo Security Notice
+=======
+## 🛡 Authorship & Provenance
+
+This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
+
+🔐 All pushes are GPG signed  
+🔑 SSH key added April 2, 2025  
+📜 IP filings and authorship assertions in progress
+
+---
+
+## ⚠️ Repo Security Notice
+>>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
 
 Unauthorized forks, clones, or IP misuse will trigger automated protections, including:
 
@@ -91,11 +112,19 @@ Unauthorized forks, clones, or IP misuse will trigger automated protections, inc
 - Fork hash-diff monitoring
 - GitHub takedown via DMCA
 
+<<<<<<< HEAD
 If you believe you have rights to contribute or are in onflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
 
 ---
 
 ## Structure
+=======
+If you believe you have rights to contribute or are in conflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
+
+---
+
+## 🔧 Structure
+>>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
 
 This repository contains:
 
@@ -106,11 +135,16 @@ This repository contains:
 
 ---
 
+<<<<<<< HEAD
 ## Contact
+=======
+## 💬 Contact
+>>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
 
 - GitHub: [@Manny27nyc](https://github.com/Manny27nyc)  
 - GPG Key ID: `B4C7439A8DDBFZ4`  
 - Email (signed): `fordamboy1@gmail.com`
+<<<<<<< HEAD
 # Bitcoin Notarized SignKit
 
 [Bitcoin Authorship Proof](A_formal_digital_image_displays_a_Bitcoin_Protocol.png)
@@ -149,3 +183,5 @@ I leave this behind for the world — to empower, to defend, and to remember.”
 
 — Manuel Nieves (aka *Satoshi Norkomoto*), *Bitcoin Founder*
 >>>>>>> 82a95aaaaa24c995ec014aabfe3ae6538d03a5fa
+=======
+>>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
