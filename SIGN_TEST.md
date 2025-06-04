@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ✅ GPG Signature Test – Verified Commit Signing
 
 This commit was signed using the verified private key under:
@@ -13,3 +14,7 @@ This confirms that signature verification and authorship assertion via GPG is **
 ## 🔏 Signature Info
 
 This file was committed with the correct GPG signing key from the `KeyOfGenesis` identity used across authorship claims.
+=======
+# SIGN TEST
+# SIGN TEST
+>>>>>>> 3c28c23 (chore: forcing GPG commit with exact key from env)
