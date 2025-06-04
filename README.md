@@ -8,8 +8,7 @@ Unauthorized or unsigned contributions may be rejected to maintain integrity of 
 
 # Bitcoin
 =======
-\# Bitcoin
->>>>>>> 045d4d1 (docs: add GPG authorship verification block to README)
+ (docs: add GPG authorship verification block to README)
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
@@ -22,9 +21,15 @@ Unauthorized or unsigned contributions may be rejected to maintain integrity of 
 
 This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
 
+<<<<<<< HEAD
 ** All pushes are GPG signed  
 ** SSH key added April 2, 2025  
 ** IP filings and authorship assertions in progress
+=======
+All pushes are GPG signed  
+SSH key added April 2, 2025  
+IP filings and authorship assertions in progress
+>>>>>>> f4088f9 (docs: add GPG-signed badge to README)
 
 ---
 
@@ -36,7 +41,7 @@ Unauthorized forks, clones, or IP misuse will trigger automated protections, inc
 - Fork hash-diff monitoring
 - GitHub takedown via DMCA
 
-If you believe you have rights to contribute or are in conflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
+If you believe you have rights to contribute or are in onflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
 
 ---
 
@@ -58,7 +63,7 @@ This repository contains:
 - Email (signed): `fordamboy1@gmail.com`
 # Bitcoin Notarized SignKit
 
-![Bitcoin Authorship Proof](A_formal_digital_image_displays_a_Bitcoin_Protocol.png)
+[Bitcoin Authorship Proof](A_formal_digital_image_displays_a_Bitcoin_Protocol.png)
 
 This repository serves as the **official notarization and cryptographic proof of authorship** for the original Bitcoin protocol (2008). It includes:
 
@@ -79,8 +84,7 @@ All commits are cryptographically signed by:
 
 **Manuel J. Nieves**  
 GPG Key ID: `CB3A2E8B1CC26008`  
-GitHub: [Manny27nyc](https://github.com/Manny27nyc)  
-Email: [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)  
+GitHub: [Manny27nyc](https://github.com/Manny27nyc)    
 Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
 
 [View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
