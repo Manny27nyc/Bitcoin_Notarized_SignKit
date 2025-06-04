@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HEAD
 HEAD
 
@@ -29,13 +30,13 @@ help test
 
 
 # Bitcoin
-
-
+=======
+\# Bitcoin
 
  5ec0456 (docs: add authorship README with historical assertion)
 
 
- Bitcoin
+\# Bitcoin
 
  Maintained by > Symbolic author: **Satoshi Nakamoto**
  
@@ -156,6 +157,9 @@ This is the **first time** Bitcoins origin is presented with:
 - Licensing enforcement framework  
 - Public authorship documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 985610e (docs: add GPG authorship verification block to README)
 
 ##  Verified Authorship
 
@@ -163,6 +167,7 @@ All commits are cryptographically signed by:
 
 **Manuel J. Nieves**  
 GPG Key ID: `CB3A2E8B1CC26008`  
+<<<<<<< HEAD
 GitHub: [Manny27nyc](https://github.com/Manny27nyc)    
 Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
 
@@ -182,3 +187,10 @@ I leave this behind for the world — to empower, to defend, and to remember.”
 >>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
 =======
 >>>>>>> 8c45819 (docs: finalize and publish README with visual authorship proof)
+=======
+GitHub: [Manny27nyc](https://github.com/Manny27nyc)  
+Email: [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)  
+Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
+
+[View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
+>>>>>>> 985610e (docs: add GPG authorship verification block to README)
