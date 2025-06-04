@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Bitcoin Notarized SignKit
+=======
+\# Bitcoin
+>>>>>>> 045d4d1 (docs: add GPG authorship verification block to README)
 
 > 📌 Public authorship repository to assert, verify, and defend original Bitcoin protocol development (2008–2025).
 
@@ -184,8 +188,10 @@ This is the **first time** Bitcoins origin is presented with:
 - Public authorship documentation
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> 985610e (docs: add GPG authorship verification block to README)
+<<<<<<< HEAD
+
+985610e (docs: add GPG authorship verification block to README)
+045d4d1 (docs: add GPG authorship verification block to README)
 
 ##  Verified Authorship
 
@@ -193,6 +199,7 @@ All commits are cryptographically signed by:
 
 **Manuel J. Nieves**  
 GPG Key ID: `CB3A2E8B1CC26008`  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 GitHub: [Manny27nyc](https://github.com/Manny27nyc)    
@@ -243,3 +250,10 @@ labeled 'stale'.
 Requests to reopen closed pull requests and/or issues can be submitted to 
 QA@BitcoinTesting.org. 
 >>>>>>> 5476786 (Initial recovery commit of Bitcoin source (tag: a76c22e))
+=======
+GitHub: [Manny27nyc](https://github.com/Manny27nyc)  
+Email: [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)  
+Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
+
+[View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
+>>>>>>> 045d4d1 (docs: add GPG authorship verification block to README)
