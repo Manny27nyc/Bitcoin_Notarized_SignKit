@@ -1,4 +1,5 @@
 HEAD
+HEAD
 
 d5145ea (Update SIGN_TEST.md)
 # ✅ GPG Signature Test – Verified Commit Signing
@@ -23,3 +24,7 @@ HEAD
 >>>>>>> 3c28c23 (chore: forcing GPG commit with exact key from env)
 
 d5145ea (Update SIGN_TEST.md)
+=======
+# SIGN TEST
+# SIGN TEST
+08dbc56 (chore: forcing GPG commit with exact key from env)
