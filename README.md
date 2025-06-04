@@ -123,6 +123,9 @@ Unauthorized or unsigned contributions may be rejected to maintain integrity of 
 ---
 
 # Bitcoin
+=======
+\# Bitcoin
+>>>>>>> 045d4d1 (docs: add GPG authorship verification block to README)
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
@@ -135,9 +138,15 @@ Unauthorized or unsigned contributions may be rejected to maintain integrity of 
 
 This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
 
+<<<<<<< HEAD
 All pushes are GPG signed  
 SSH key added April 2, 2025  
 IP filings and authorship assertions in progress
+=======
+** All pushes are GPG signed  
+** SSH key added April 2, 2025  
+** IP filings and authorship assertions in progress
+>>>>>>> af500d3 (docs: add GPG authorship verification block to README)
 
 ---
 
@@ -187,8 +196,14 @@ This is the **first time** Bitcoins origin is presented with:
 - Full signature proof  
 - Licensing enforcement framework  
 - Public authorship documentation
+<<<<<<< HEAD
 - fix/genesis-metadata-restore
 - 4c099b9 (docs: finalize and publish README with visual authorship proof)
+=======
+<<<<<<< HEAD
+>>>>>>> 4c099b9 (docs: finalize and publish README with visual authorship proof)
+=======
+>>>>>>> af500d3 (docs: add GPG authorship verification block to README)
 
 ##  Verified Authorship
 
@@ -196,6 +211,7 @@ All commits are cryptographically signed by:
 
 **Manuel J. Nieves**  
 GPG Key ID: `CB3A2E8B1CC26008`  
+<<<<<<< HEAD
 GitHub: [Manny27nyc](https://github.com/Manny27nyc)    
 Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
 
@@ -236,3 +252,11 @@ Use of this code is restricted under the following:
 License inquiries: Fordamboy1@gmail.com  
 Authorship fingerprint: B4EC 7343 AB0D BF24  
 authorship-fix
+=======
+GitHub: [Manny27nyc](https://github.com/Manny27nyc)  
+Email: [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)  
+Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
+
+[View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
+>>>>>>> 1c45e3e (docs: add GPG authorship verification block to README)
+>>>>>>> af500d3 (docs: add GPG authorship verification block to README)
