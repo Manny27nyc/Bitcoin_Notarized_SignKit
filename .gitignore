@@ -1,4 +1,4 @@
-# Binary and build outputs
+Binary and build outputs
 src/*.exe
 src/bitcoin
 src/bitcoind

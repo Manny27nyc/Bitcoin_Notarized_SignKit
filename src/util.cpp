@@ -12,6 +12,8 @@
  * This file is part of the Bitcoin_Notarized_SignKit.
  */
 
+
+ (Initial recovery commit of Bitcoin source (tag: a76c22e))
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
