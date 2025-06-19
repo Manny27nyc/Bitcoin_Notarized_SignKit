@@ -1,11 +1,14 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+HEAD
+HEAD
+HEAD
 # Bitcoin Notarized SignKit
-=======
-\# Bitcoin
->>>>>>> 045d4d1 (docs: add GPG authorship verification block to README)
 
+=
+\# Bitcoin
+
+045d4d1 (docs: add GPG authorship verification block to README)
+
+HEAD
 > 📌 Public authorship repository to assert, verify, and defend original Bitcoin protocol development (2008–2025).
 
 ---
@@ -67,15 +70,24 @@ IP filings and authorship assertions in progress
 
 
 > Maintained by **Manuel Nieves**  
+=======
+
+# Bitcoin
+
+> Maintained by **Manny27nyc**  
+>>>>>>> e47d123 (Update README.md)
 > Symbolic author: **Satoshi Nakamoto**  
 > Repository recovered and secured ??? January 3, 2009  
 > GPG-signed | SSH-authenticated | IP-locked
 
+HEAD
 
-<<<<<<< HEAD
+HEAD
 
-=======
->>>>>>> f4088f9 (docs: add GPG-signed badge to README)
+f4088f9 (docs: add GPG-signed badge to README)
+
+
+ e47d123 (Update README.md)
 ## Authorship & Provenance
 
 This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
@@ -87,11 +99,10 @@ IP filings and authorship assertions in progress
 ---
 
 ## Repo Security Notice
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-## 🛡 Authorship & Provenance
-=======
+HEAD
+HEAD
+HEAD
+
 ##  Authorship & Provenance
 8c45819 (docs: finalize and publish README with visual authorship proof)
 
@@ -114,6 +125,8 @@ HEAD
 >>>>>>> 74a7502 (docs: add GPG-signed badge to README)
 =======
 >>>>>>> f4088f9 (docs: add GPG-signed badge to README)
+=======
+>>>>>>> e47d123 (Update README.md)
 
 Unauthorized forks, clones, or IP misuse will trigger automated protections, including:
 
@@ -123,12 +136,16 @@ Unauthorized forks, clones, or IP misuse will trigger automated protections, inc
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 HEAD
+=======
+>>>>>>> e47d123 (Update README.md)
 If you believe you have rights to contribute or are in onflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
 
 ---
 
 ## Structure
+<<<<<<< HEAD
 =======
 If you believe you have rights to contribute or are in conflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
 
@@ -154,6 +171,8 @@ If you believe you have rights to contribute or are in onflict with any part of 
 
 ## Structure
 >>>>>>> f4088f9 (docs: add GPG-signed badge to README)
+=======
+>>>>>>> e47d123 (Update README.md)
 
 This repository contains:
 
@@ -161,21 +180,28 @@ This repository contains:
 - CI/CD setup via Azure + CircleCI
 - Automated dependency updates via Renovate
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Policies for secure contributions and review
 =======
+=======
+>>>>>>> e47d123 (Update README.md)
 - Policies for secure contributions and review gating
 
 ---
 
 ## Contact
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 74a7502 (docs: add GPG-signed badge to README)
 =======
 >>>>>>> f4088f9 (docs: add GPG-signed badge to README)
+=======
+>>>>>>> e47d123 (Update README.md)
 
 - GitHub: [@Manny27nyc](https://github.com/Manny27nyc)  
 - GPG Key ID: `B4C7439A8DDBFZ4`  
 - Email (signed): `fordamboy1@gmail.com`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Bitcoin Notarized SignKit
@@ -193,6 +219,11 @@ This repository contains:
 >>>>>>> 74a7502 (docs: add GPG-signed badge to README)
 =======
 >>>>>>> f4088f9 (docs: add GPG-signed badge to README)
+=======
+# Bitcoin Notarized SignKit
+
+[Bitcoin Authorship Proof](A_formal_digital_image_displays_a_Bitcoin_Protocol.png)
+>>>>>>> e47d123 (Update README.md)
 
 This repository serves as the **official notarization and cryptographic proof of authorship** for the original Bitcoin protocol (2008). It includes:
 
@@ -209,9 +240,12 @@ This is the **first time** Bitcoins origin is presented with:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 985610e (docs: add GPG authorship verification block to README)
 045d4d1 (docs: add GPG authorship verification block to README)
+=======
+>>>>>>> e47d123 (Update README.md)
 
 ##  Verified Authorship
 
@@ -219,6 +253,7 @@ All commits are cryptographically signed by:
 
 **Manuel J. Nieves**  
 GPG Key ID: `CB3A2E8B1CC26008`  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,6 +310,8 @@ QA@BitcoinTesting.org.
 GitHub: [Manny27nyc](https://github.com/Manny27nyc)  
 Email: [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)  
 =======
+=======
+>>>>>>> e47d123 (Update README.md)
 GitHub: [Manny27nyc](https://github.com/Manny27nyc)    
 >>>>>>> f4088f9 (docs: add GPG-signed badge to README)
 Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
