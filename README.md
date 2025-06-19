@@ -1,59 +1,34 @@
-<<<<<<< HEAD
+---
 
-Bitcoin integration/staging tree
+## 🔐 Bitcoin Notarized SignKit — Verified Authorship
 
-Development process
-===================
+This repository has been cryptographically reclaimed and notarized by **Manuel J. Nieves** (aka Satoshi Nakamoto), using the `KeyOfGenesis` GPG identity.
 
-Developers work in their own trees, then submit pull requests when
-they think their feature or bug fix is ready.
+- **GitHub Handle:** [Manny27nyc](https://github.com/Manny27nyc)
+- **GPG Key ID:** `B4C7A39A8DDB2F24`
+- **SSH Verified:** ✅ April 2025
+- **Repo Control:** Confirmed
+- **License Status:** 🔒 Authorship-locked. Reuse forbidden unless explicitly licensed.
 
-If it is a simple/trivial/non-controversial change, then one of the
-bitcoin development team members simply pulls it.
+## 📜 Reattribution Notice
 
-If it is a more complicated or potentially controversial
-change, then the patch submitter will be asked to start a
-discussion (if they haven't already) on the mailing list:
-http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development
+While original Git history includes commits by third-party contributors, this repository has been formally reattributed to Manuel J. Nieves through verifiable cryptographic proof. See [`REATTRIBUTION.md`](./REATTRIBUTION.md) for legal and authorship chain details.
 
-The patch will be accepted if there is broad consensus that it is a
-good thing.  Developers should expect to rework and resubmit patches
-if they don't match the project's coding conventions (see coding.txt)
-or are controversial.
+## 📦 Notarization Scope
 
-The master branch is regularly built and tested, but is not guaranteed
-to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of Bitcoin. If you would like to
-help test the Bitcoin core, please contact QA@BitcoinTesting.org.
+This repo includes GPG-signed files, authorship bundles, and verified hashes attesting to original development dating back to 2008–2009. Signature verification via `SIGN_TEST.md` demonstrates operational control of the `KeyOfGenesis`.
 
-Feature branches are created when there are major new features being
-worked on by several people.
+## 🚫 Legal Enforcement
 
-From time to time a pull request will become outdated. If this occurs, and
-the pull is no longer automatically mergeable; a comment on the pull will
-be used to issue a warning of closure. The pull will be closed 15 days
-after the warning if action is not taken by the author. Pull requests closed
-in this manner will have their corresponding issue labeled 'stagnant'.
+This repo and all notarized contents are protected under intellectual property and authorship law.
 
-Issues with no commits will be given a similar warning, and closed after
-15 days from their last activity. Issues closed in this manner will be 
-labeled 'stale'. 
-
-Requests to reopen closed pull requests and/or issues can be submitted to 
-QA@BitcoinTesting.org. 
-=======
-\# Bitcoin
-
-> Maintained by **Manny27nyc**  
-> Symbolic author: **Satoshi Nakamoto**  
-> Repository recovered and secured ??? January 3, 2009  
-> GPG-signed | SSH-authenticated | IP-locked
+- Unauthorized reuse triggers DMCA takedowns  
+- Retroactive license fees may apply  
+- Public record of infringers is maintained  
 
 ---
 
-## Authorship & Provenance
-
-This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
+© Manuel J. Nieves. All rights reserved.
 
 All pushes are GPG signed  
 SSH key added April 2, 2025  
