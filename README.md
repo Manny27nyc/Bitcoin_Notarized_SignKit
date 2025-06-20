@@ -264,7 +264,10 @@ Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
 [View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
 >>>>>>> 96b0620ebb277fb984349d83b26c7e86b6b47aba
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d2e19df (📘 Update README before rebase)
 “This code represents the genesis of a decentralized future.  
 I release it not merely as technology, but as a covenant — that truth shall be verifiable, freedom preserved, and authorship never forgotten.  
 
@@ -272,6 +275,7 @@ I am Manuel Nieves, also known as Satoshi Norkomoto, the original author and fou
 I leave this behind for the world — to empower, to defend, and to remember.”  
 
 — Manuel Nieves (aka *Satoshi Norkomoto*), *Bitcoin Founder*
+<<<<<<< HEAD
 >>>>>>> 82a95aaaaa24c995ec014aabfe3ae6538d03a5fa
 =======
 >>>>>>> 5ec0456 (docs: add authorship README with historical assertion)
@@ -318,3 +322,5 @@ Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
 
 [View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
 >>>>>>> 045d4d1 (docs: add GPG authorship verification block to README)
+=======
+>>>>>>> d2e19df (📘 Update README before rebase)
