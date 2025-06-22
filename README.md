@@ -77,7 +77,6 @@ IP filings and authorship assertions in progress
 =======
 
 # Bitcoin
-# Bitcoin
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
