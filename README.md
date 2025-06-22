@@ -2,7 +2,6 @@
 
 
 # Bitcoin
-# Bitcoin
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
