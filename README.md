@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-HEAD
-HEAD
-HEAD
+
 # Bitcoin Notarized SignKit
-=======
  HEAD
 >>>>>>> 82a95aa (📘 Update README before rebase (#8))
 
