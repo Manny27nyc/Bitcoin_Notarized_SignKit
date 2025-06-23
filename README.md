@@ -1,5 +1,31 @@
 # Bitcoin_Notarized_SignKit
 
+**Authorship Declaration**  
+Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+
+This repository contains the notarized signing kit and authorship evidence for the original Bitcoin protocol, validated with verified GPG signatures.
+
+## Contents
+
+- `SIGNATURE.asc` – Cryptographic GPG signature
+- `authorship_declaration_signed.asc` – Public authorship claim
+- `Bitcoin_Notarized_SignKit_v1.0.0.zip` – Bundled snapshot
+- `README.md.save` – Local readme variant for archive reference
+
+## License Terms
+
+- 🚫 No commercial use without prior licensing agreement  
+- 🛡️ Redistribution must retain this notice  
+- 🔐 Forks must indicate derivative status and may not imply origin authorship  
+- 📬 License inquiries: Fordamboy1@gmail.com  
+
+## GPG Verification
+
+```bash
+gpg --verify authorship_declaration_signed.asc
+
+# Bitcoin_Notarized_SignKit
+
 Primary notarized authorship kit. GPG-signed. DMCA-ready. From the original author.
 
 ## 📄 Bitcoin Whitepaper v1.0.0 — GPG Verified by Original Author
