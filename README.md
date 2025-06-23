@@ -1,5 +1,15 @@
- HEAD
-# Bitcoin
+# Bitcoin_Notarized_SignKit
+
+Primary notarized authorship kit. GPG-signed. DMCA-ready. From the original author.
+
+## 📄 Bitcoin Whitepaper v1.0.0 — GPG Verified by Original Author
+
+[![Download PDF](https://img.shields.io/badge/Download-Bitcoin_Whitepaper.pdf-blue)](https://github.com/BitcoinCore-Origin/Bitcoin_Notarized_SignKit/releases/latest/download/Bitcoin_Whitepaper.pdf)  
+[![Verify Signature](https://img.shields.io/badge/Verify-GPG_Signature-brightgreen)](https://github.com/BitcoinCore-Origin/Bitcoin_Notarized_SignKit/releases/latest/download/Bitcoin_Whitepaper.pdf.asc)  
+[![SHA-256 Checksum](https://img.shields.io/badge/Verify-SHA_256-yellow)](https://github.com/BitcoinCore-Origin/Bitcoin_Notarized_SignKit/releases/latest/download/Bitcoin_Whitepaper.sha256.txt)
+
+This whitepaper is the original version published by Satoshi Nakamoto, cryptographically signed by  
+**Manuel J. Nieves (KeyOfGenesis)** — verified authorship, released under licensing control and enforcement.
 
 > Maintained by **Manny27nyc**  
 > Symbolic author: **Satoshi Nakamoto**  
