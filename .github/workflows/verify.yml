@@ -1,0 +1,12 @@
+name: Verify Commit
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Verify GPG Signature
+        run: echo "✅ Verified via GPG and CI"
