@@ -1,0 +1,1 @@
+✅ Release v1.0.0 merged and verified. See PR #20.
