@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Bitcoin Notarized Authorship Declaration
 ========================================
 
@@ -13,10 +10,3 @@ Signed: June 23, 2025
 Email: Fordamboy1@gmail.com
 GitHub: https://github.com/Manny27nyc  
 Org: https://github.com/BitcoinCore-Origin
------BEGIN PGP SIGNATURE-----
-
-iHUEARYKAB0WIQQ4feBwzjWBiAA9PMvghaHQ1tfIYwUCaFlxtwAKCRDghaHQ1tfI
-Y2OiAP9hQXg7dbx13YV72j3wcfjzsBavHHGcAm8qW5CNIde9wgD6At0ymN1HdDMC
-B7mzSz96cWy2pPhxh3mFzKU2kZIFjAo=
-=FNrg
------END PGP SIGNATURE-----
