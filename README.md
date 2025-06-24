@@ -1,3 +1,19 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-Manuel%20J.%20Nieves-%23000000?style=flat-square&logo=bitcoin&logoColor=orange">
+  <img src="https://img.shields.io/badge/GPG-Signed-blue?style=flat-square&logo=gnupg&logoColor=white">
+  <img src="https://img.shields.io/badge/License-Enforced-orange?style=flat-square">
+</p>
+
+# ⚠️ Authorship Notice
+
+Copyright (c) 2008–2025 Manuel J. Nieves...
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-Manuel%20J.%20Nieves-%23000000?style=flat-square&logo=bitcoin&logoColor=orange">
+  <img src="https://img.shields.io/badge/GPG-Signed-blue?style=flat-square&logo=gnupg&logoColor=white">
+  <img src="https://img.shields.io/badge/License-Enforced-orange?style=flat-square">
+</p>
+
 # ⚠️ Authorship Notice
 
 Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
