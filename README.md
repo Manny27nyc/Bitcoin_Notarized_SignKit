@@ -1,24 +1,7 @@
-fix/genesis-metadata-restore
-## 🛡️ Bitcoin_Notarized_SignKit
+# 🛡️ Bitcoin_Notarized_SignKit
 
-# ⚠️ Authorship Notice
-
-Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
-This repository contains material from the original Bitcoin protocol development.  
-Use of this code is restricted under the following:
-
-- No commercial use without prior licensing agreement  
-- Redistribution must retain this notice  
-- Forks must clearly indicate derivative status and may not imply origin authorship  
-- GPG-signed authorship declaration must remain intact  
-
-License inquiries: Fordamboy1@gmail.com  
-Authorship fingerprint: B4EC 7343 AB0D BF24  
- HEAD
-authorship-fix
-
-> **Official notarized authorship and licensing enforcement repository for the original Bitcoin source and whitepaper.**  
-> Verified and cryptographically signed by **Manuel J. Nieves** (a.k.a. *Satoshi Norkomoto*), preserved under strict IP controls.
+> **Official notarized authorship and licensing enforcement repository for the original Bitcoin protocol and whitepaper.**  
+> Verified and cryptographically signed by **Manuel J. Nieves** (a.k.a. *Satoshi Norkomoto*) under verifiable public key infrastructure.
 
 ---
 
@@ -28,7 +11,7 @@ authorship-fix
 [![Verify Signature](https://img.shields.io/badge/Verify-GPG_Signature-brightgreen)](https://github.com/BitcoinCore-Origin/Bitcoin_Notarized_SignKit/blob/main/Docs/whitepaper_signature.asc)  
 [![SHA-256 Checksum](https://img.shields.io/badge/Verify-SHA_256-yellow)](https://github.com/BitcoinCore-Origin/Bitcoin_Notarized_SignKit/blob/main/Docs/whitepaper_checksum.sha256)
 
-This is the original Bitcoin whitepaper, digitally signed by the verified cryptographic identity of:
+This is the **original Bitcoin whitepaper**, digitally signed and cryptographically verified by:
 
 > **Manuel J. Nieves (KeyOfGenesis)**  
 > Symbolic author: **Satoshi Nakamoto**  
@@ -36,227 +19,96 @@ This is the original Bitcoin whitepaper, digitally signed by the verified crypto
 
 ---
 
-## 🔐 Authorship & Licensing Declaration
+## 🔐 Verified Authorship
 
-**© 2008–2025 Manuel J. Nieves**  
-*(also known as Satoshi Norkomoto)*  
-All rights reserved.
+All commits in this repository are GPG-signed and timestamped.  
+**Authorship has been declared under the following verified fingerprint:**
 
-This repository contains original, GPG-signed source files, notarized documents, and cryptographic proofs asserting authorship over the Bitcoin protocol. Licensing and royalty terms are actively enforced.
+- **Name:** Manuel J. Nieves (aka *Satoshi Norkomoto*)  
+- **GitHub:** [@Manny27nyc](https://github.com/Manny27nyc)  
+- **GPG Key ID:** `B4EC 7343 AB0D BF24`  
+- **Fingerprint:** `6CD2 8B0A B61F C592 7882 98AD CB3A 2E8B 1CC2 6008`  
+- **Bitcoin Proof Address:** `1C85vKNtpPnNQLQi3rMmM797yBD3558UEC`  
+- **SSH Key Added:** April 2, 2025  
+- **All pushes are cryptographically signed**
 
-### ⚖️ License Conditions
-
-- **No commercial use without a signed license agreement**
-- **Redistribution must retain all authorship notices**
-- **Forks must declare derivative status and cannot imply original authorship**
-- **GPG authorship headers and identity declarations must remain intact**
-
-> Contact for licensing: **Fordamboy1@gmail.com**  
-> GPG Fingerprint: `B4EC 7343 AB0D BF24`  
-> BTC Verification Address: `1C85vKNtpPnNQLQi3rMmM797yBD3558UEC`
+[📜 View Verified Commits »](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
 
 ---
 
-## 🧾 Repo Contents
+## ⚠️ Authorship & Licensing Declaration
+
+**Copyright © 2008–2025 Manuel J. Nieves**
+
+This repository contains original GPG-signed material from the foundational Bitcoin protocol. Its usage is protected under strict authorship and licensing terms:
+
+### License Terms
+
+- ❌ **No commercial use** without prior licensing agreement  
+- 🔁 Redistribution **must retain all authorship notices**  
+- ⚠️ Forks **must clearly declare derivative status** and **may not imply original authorship**  
+- 🔐 GPG-signed authorship declarations **must remain intact**
+
+**For license agreements or verification requests:**  
+📧 [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)
+
+---
+
+## 🧾 Repository Contents
 
 This repository includes:
 
-- `/Docs/*.pem` — GPG and cryptographic key materials
-- `/Final_Authorship_Declaration/` — notarized GPG authorship bundles
-- `LICENSE`, `AUTHORS`, `README.md` — all with signed authorship headers
-- Legacy Bitcoin source files, recovered and restored
+- `/Docs/` — Whitepaper, signatures, cryptographic checksums  
+- `/Final_Authorship_Declaration/` — GPG-signed notarization bundles  
+- `/proof/` — Cryptographic JNI authorship validation and signature reports  
+- `AUTHORS`, `README.md`, `LICENSE` — All GPG-signed
 
 ---
 
-## 🔎 Authorship & Provenance
+## 🔎 Historical Provenance
 
-This version of Bitcoin and its components are cryptographically linked to original work authored and timestamped by **Manuel J. Nieves**, fully recovered and re-secured as of:
+This version of Bitcoin is cryptographically linked to the original genesis commit and source history authored by **Manuel J. Nieves**.
 
-> **January 3, 2009 — Recovery & Signing Genesis**  
-> All pushes are GPG-signed  
-> SSH key added: April 2, 2025  
-> IP filings and legal declarations in progress
+> **January 3, 2009 — Bitcoin Genesis Block**  
+> **2025 — Recovery, notarization, and licensing enforcement initiated**
+
+---
+
+> “This code represents the genesis of a decentralized future.  
+> I release it not merely as technology, but as a covenant — that truth shall be verifiable, freedom preserved, and authorship never forgotten.”   
+> — **Manuel J. Nieves** (*Satoshi Norkomoto*)
+
+---
+
+## 🔐 JNI Cryptographic Authorship
+
+- [`NativeSecp256k1_Authorship_Report_20250623.zip`](proof/NativeSecp256k1_Authorship_Report_20250623.zip)  
+  *Signed JNI-level authorship proof; 0% function overlap with CoreBitcoin*
+
+- [`cleaned_org_bitcoin_NativeSecp256k1_Proof_20250623.zip`](proof/cleaned_org_bitcoin_NativeSecp256k1_Proof_20250623.zip)  
+  *Contains SHA256 notarization and identity-lock for `verifyAuthorship()`*
 
 ---
 
 ## 🛡️ Security & Enforcement
 
-Unauthorized use or misrepresentation of this codebase or identity will trigger:
+This repository is under strict authorship and license protection. Misuse will trigger:
 
-- GitHub DMCA filing
-- Repo hash monitoring
-- Fork & reuse surveillance
-- Legal enforcement of licensing terms
+- 🛑 GitHub DMCA action  
+- 🔎 Fork and reuse monitoring  
+- ⚖️ Legal enforcement of license terms
 
-To request contribution rights or resolve licensing conflicts, submit a signed and encrypted request to **Fordamboy1@gmail.com**.
-
----
-
-## 📡 Contact & Identity
-
-- GitHub: [@Manny27nyc](https://github.com/Manny27nyc)
-- Email: `Fordamboy1@gmail.com`
-- GPG ID: `B4EC7343AB0DBF24`
-- Bitcoin Address (authorship notarization): `1C85vKNtpPnNQLQi3rMmM797yBD3558UEC`
+To request contribution rights or resolve any conflicts:  
+Submit a GPG-signed email or encrypted issue to [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)
 
 ---
 
-*This repository is under strict authorship and licensing protection. Do not fork, clone, or redistribute without permission.*
+## 🤝 Contribution & Integrity Policy
 
-## Cryptographic JNI Authorship)
-
-- [`NativeSecp256k1_Authorship_Report_20250623.zip`](proof/NativeSecp256k1_Authorship_Report_20250623.zip)  
-  *Signed report validating cryptographic JNI originality (0% function overlap with CoreBitcoin)*
-
-
-### 🔐 Cryptographic JNI Authorship Extension
-
-[`cleaned_org_bitcoin_NativeSecp256k1_Proof_20250623.zip`](proof/cleaned_org_bitcoin_NativeSecp256k1_Proof_20250623.zip)  
-*Includes GPG signature and SHA256 notarization of `verifyAuthorship()` — zero overlap with CoreBitcoin.*
-=======
-# Contributing and Merge Policy
-
-From time to time a pull request will become outdated. If this occurs and the pull is no longer automatically mergeable, a comment will be issued warning of closure. All contributors must ensure their forks are up to date and GPG-signed.
-
-Unauthorized or unsigned contributions may be rejected to maintain integrity of the authorship chain.
+- All PRs **must be GPG-signed**  
+- Forks must retain licensing headers and derivative disclaimers  
+- Unsigned or anonymous changes will be rejected to preserve historical trust
 
 ---
 
-# Bitcoin
-=======
-\# Bitcoin
->>>>>>> 045d4d1 (docs: add GPG authorship verification block to README)
-
-> Maintained by **Manny27nyc**  
-> Symbolic author: **Satoshi Nakamoto**  
-> Repository recovered and secured ??? January 3, 2009  
-> GPG-signed | SSH-authenticated | IP-locked
-
----
-
-## Authorship & Provenance
-
-This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
-
-<<<<<<< HEAD
-All pushes are GPG signed  
-SSH key added April 2, 2025  
-IP filings and authorship assertions in progress
-=======
-** All pushes are GPG signed  
-** SSH key added April 2, 2025  
-** IP filings and authorship assertions in progress
->>>>>>> af500d3 (docs: add GPG authorship verification block to README)
-
----
-
-## Repo Security Notice
-
-Unauthorized forks, clones, or IP misuse will trigger automated protections, including:
-
-- Repo surveillance
-- Fork hash-diff monitoring
-- GitHub takedown via DMCA
-
-If you believe you have rights to contribute or are in conflict with any part of this repository, file an encrypted request via the issue tracker or contact securely.
-
----
-
-## Structure
-
-This repository contains:
-
-- Legacy Bitcoin Core development history
-- CI/CD setup via Azure + CircleCI
-- Automated dependency updates via Renovate
-- Policies for secure contributions and review gating
-
----
-
-## Contact
-
-- GitHub: [@Manny27nyc](https://github.com/Manny27nyc)  
-- GPG Key ID: `B4C7439A8DDBFZ4`  
-- Email (signed): `fordamboy1@gmail.com`
-HEAD
-475eb33 (docs: add authorship README with historical assertion)
-
-
-# Bitcoin Notarized SignKit
-
-
-This repository serves as the **official notarization and cryptographic proof of authorship** for the original Bitcoin protocol (2008). It includes:
-
--  GPG-signed authorship headers across restored Bitcoin source files  
--  Formal genesis_filled.json declaration  
--  Original configure.ac and CONTRIBUTING.md with metadata  
--  Verifiable cryptographic trail from 2008 to 2025  
-
-This is the **first time** Bitcoins origin is presented with:
-- Full signature proof  
-- Licensing enforcement framework  
-- Public authorship documentation
-<<<<<<< HEAD
-- fix/genesis-metadata-restore
-- 4c099b9 (docs: finalize and publish README with visual authorship proof)
-=======
-<<<<<<< HEAD
->>>>>>> 4c099b9 (docs: finalize and publish README with visual authorship proof)
-=======
->>>>>>> af500d3 (docs: add GPG authorship verification block to README)
-
-##  Verified Authorship
-
-All commits are cryptographically signed by:
-
-**Manuel J. Nieves**  
-GPG Key ID: `CB3A2E8B1CC26008`  
-<<<<<<< HEAD
-GitHub: [Manny27nyc](https://github.com/Manny27nyc)    
-Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
-
-[View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
-96b0620ebb277fb984349d83b26c7e86b6b47aba
-
-“This code represents the genesis of a decentralized future.  
-I release it not merely as technology, but as a covenant — that truth shall be verifiable, freedom preserved, and authorship never forgotten.  
-
-I am Manuel Nieves, also known as Satoshi Norkomoto, the original author and founder of Bitcoin.  
-I leave this behind for the world — to empower, to defend, and to remember.”  
-
-— Manuel Nieves (aka *Satoshi Norkomoto*), *Bitcoin Founder*
-# ⚠️ Authorship Notice
-
-Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
-This repository contains material from the original Bitcoin protocol development.  
-Use of this code is restricted under the following:
-
-- No commercial use without prior licensing agreement  
-- Redistribution must retain this notice  
-- Forks must clearly indicate derivative status and may not imply origin authorship  
-- GPG-signed authorship declaration must remain intact  
-
-License inquiries: Fordamboy1@gmail.com  
-Authorship fingerprint: B4EC 7343 AB0D BF24  
-# ⚠️ Authorship Notice
-
-Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
-This repository contains material from the original Bitcoin protocol development.  
-Use of this code is restricted under the following:
-
-- No commercial use without prior licensing agreement  
-- Redistribution must retain this notice  
-- Forks must clearly indicate derivative status and may not imply origin authorship  
-- GPG-signed authorship declaration must remain intact  
-
-License inquiries: Fordamboy1@gmail.com  
-Authorship fingerprint: B4EC 7343 AB0D BF24  
-authorship-fix
-=======
-GitHub: [Manny27nyc](https://github.com/Manny27nyc)  
-Email: [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)  
-Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
-
-[View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
->>>>>>> 1c45e3e (docs: add GPG authorship verification block to README)
->>>>>>> af500d3 (docs: add GPG authorship verification block to README)
+*This repository reflects the authenticated recovery and public authorship of the original Bitcoin protocol. Unauthorized redistribution, tampering, or implied origin claims are prohibited.*

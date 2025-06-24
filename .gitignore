@@ -1,32 +1,54 @@
-Binary and build outputs
+# 🔒 Security: Prevent accidental key/private file commits
+*.key
+*.pem
+*.asc
+*private*
+KeyOfGenesis_private.asc
+
+# 🔧 Binary build outputs
 src/*.exe
 src/bitcoin
 src/bitcoind
 src/test_bitcoin
 src/build.h
 
-# Swap, backup, and patch files
-.*.swp
-*.*~*
-*.bak
-*.rej
-*.orig
+# ⚙️ Object files and patch temp files
 *.o
 *.patch
+*.rej
+*.orig
+*.bak
+*.*~*
+.*.swp
 
-# App data
-.bitcoin
-
-# Qt build and configuration
-*.qm
-Makefile
-bitcoin-qt
-qrc_*.cpp
-*.pro.user
-
-# macOS-specific
+# 📁 OS-generated cruft
 .DS_Store
-build
+Thumbs.db
 
-# Prevent accidental commits of quarantine folder
+# 🧪 Application-generated
+.bitcoin/
+build/
+Makefile
+*.qm
+*.pro.user
+qrc_*.cpp
+bitcoin-qt
+
+# 📦 GitHub Actions or quarantine working folders
 Quarantine/
+
+# 💼 Logs and diagnostics (optional)
+*.log
+*.out
+*.tmp
+
+
+
+
+
+
+
+
+
+
+
