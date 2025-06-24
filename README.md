@@ -170,4 +170,4 @@ This is the **first time** Bitcoins origin is presented with:
 - Full signature proof  
 - Licensing enforcement framework  
 - Public authorship documentation
->>>>>>> 4c099b9 (docs: finalize and publish README with visual authorship proof)
+- 4c099b9 (docs: finalize and publish README with visual authorship proof)
