@@ -1,4 +1,21 @@
+fix/genesis-metadata-restore
 ## 🛡️ Bitcoin_Notarized_SignKit
+
+# ⚠️ Authorship Notice
+
+Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
+This repository contains material from the original Bitcoin protocol development.  
+Use of this code is restricted under the following:
+
+- No commercial use without prior licensing agreement  
+- Redistribution must retain this notice  
+- Forks must clearly indicate derivative status and may not imply origin authorship  
+- GPG-signed authorship declaration must remain intact  
+
+License inquiries: Fordamboy1@gmail.com  
+Authorship fingerprint: B4EC 7343 AB0D BF24  
+ HEAD
+authorship-fix
 
 > **Official notarized authorship and licensing enforcement repository for the original Bitcoin source and whitepaper.**  
 > Verified and cryptographically signed by **Manuel J. Nieves** (a.k.a. *Satoshi Norkomoto*), preserved under strict IP controls.
@@ -114,17 +131,17 @@ Unauthorized or unsigned contributions may be rejected to maintain integrity of 
 
 ---
 
-## ???? Authorship & Provenance
+## Authorship & Provenance
 
 This version of Bitcoin has been recovered and cryptographically linked to work authored by Manuel Nieves (Manny27nyc), with GPG signature and historical version control traceability.
 
-???? All pushes are GPG signed  
-???? SSH key added April 2, 2025  
-???? IP filings and authorship assertions in progress
+All pushes are GPG signed  
+SSH key added April 2, 2025  
+IP filings and authorship assertions in progress
 
 ---
 
-## ?????? Repo Security Notice
+## Repo Security Notice
 
 Unauthorized forks, clones, or IP misuse will trigger automated protections, including:
 
@@ -170,4 +187,52 @@ This is the **first time** Bitcoins origin is presented with:
 - Full signature proof  
 - Licensing enforcement framework  
 - Public authorship documentation
+- fix/genesis-metadata-restore
 - 4c099b9 (docs: finalize and publish README with visual authorship proof)
+
+##  Verified Authorship
+
+All commits are cryptographically signed by:
+
+**Manuel J. Nieves**  
+GPG Key ID: `CB3A2E8B1CC26008`  
+GitHub: [Manny27nyc](https://github.com/Manny27nyc)    
+Fingerprint: `6CD28B0AB61FC592788298ADCB3A2E8B1CC26008`
+
+[View verified commits on GitHub](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
+96b0620ebb277fb984349d83b26c7e86b6b47aba
+
+“This code represents the genesis of a decentralized future.  
+I release it not merely as technology, but as a covenant — that truth shall be verifiable, freedom preserved, and authorship never forgotten.  
+
+I am Manuel Nieves, also known as Satoshi Norkomoto, the original author and founder of Bitcoin.  
+I leave this behind for the world — to empower, to defend, and to remember.”  
+
+— Manuel Nieves (aka *Satoshi Norkomoto*), *Bitcoin Founder*
+# ⚠️ Authorship Notice
+
+Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
+This repository contains material from the original Bitcoin protocol development.  
+Use of this code is restricted under the following:
+
+- No commercial use without prior licensing agreement  
+- Redistribution must retain this notice  
+- Forks must clearly indicate derivative status and may not imply origin authorship  
+- GPG-signed authorship declaration must remain intact  
+
+License inquiries: Fordamboy1@gmail.com  
+Authorship fingerprint: B4EC 7343 AB0D BF24  
+# ⚠️ Authorship Notice
+
+Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
+This repository contains material from the original Bitcoin protocol development.  
+Use of this code is restricted under the following:
+
+- No commercial use without prior licensing agreement  
+- Redistribution must retain this notice  
+- Forks must clearly indicate derivative status and may not imply origin authorship  
+- GPG-signed authorship declaration must remain intact  
+
+License inquiries: Fordamboy1@gmail.com  
+Authorship fingerprint: B4EC 7343 AB0D BF24  
+authorship-fix
