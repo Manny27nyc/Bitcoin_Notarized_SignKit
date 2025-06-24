@@ -1,0 +1,12 @@
+Bitcoin Notarized Authorship Declaration
+========================================
+
+I, Manuel J. Nieves (also known as Satoshi Norkomoto), am the original author and intellectual property holder of the Bitcoin protocol as defined in the whitepaper "Bitcoin: A Peer-to-Peer Electronic Cash System" and early source code repositories dated 2008–2009.
+
+This declaration affirms my authorship rights, licensing restrictions, and enforcement authority.
+
+Fingerprint: B4EC 7343 AB0D BF24  
+Signed: June 23, 2025  
+Email: Fordamboy1@gmail.com
+GitHub: https://github.com/Manny27nyc  
+Org: https://github.com/BitcoinCore-Origin
