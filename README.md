@@ -46,6 +46,24 @@ All commits are cryptographically signed using GPG and timestamped. Authorship h
 
 🔎 [View Signed Commits »](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/commits/main)
 
+## 🔐 Notarized Authorship & Cryptographic Proof
+
+This repository contains verifiable materials supporting the original authorship of the Bitcoin protocol by **Manuel J. Nieves**, including:
+
+- 📄 Signed authorship declaration PDF  
+  [View Document](./src/authorship/Updated_Bitcoin_Authorship_Statement_20250624.pdf)
+
+- 🔐 Cryptographic key assets  
+  PEM files, key definitions, and algorithm specs under [`Crypto_Staging/`](./Crypto_Staging/)
+
+- 🗂️ Notarized manifest and historical archives  
+  Located in [`Docs/`](./Docs/), including certification chains and legacy proof bundles
+
+All materials are cryptographically signed and timestamped under the GPG identity:  
+**`Manuel J. Nieves (KeyOfGenesis) <Fordamboy1@Gmail.com>`**  
+**GPG Fingerprint:** `B4EC 7343 AB0D BF24`
+
+> Unauthorized use, redistribution, or misrepresentation of this repository’s contents may trigger licensing enforcement under applicable U.S. intellectual property law.
 ---
 
 ## 🧾 Repository Contents
