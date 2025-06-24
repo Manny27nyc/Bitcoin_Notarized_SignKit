@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Directory containing plist XML files
+PLIST_DIR=~/Desktop/plist_xml
+
+# Output CSV and JSON files
+CSV_OUTPUT=~/Desktop/plist_summary.csv
+JSON_OUTPUT=~/Desktop/plist_summary.json
+
+echo "Processing plist files in $PLIST_DIR..."
+
+# Initialize CSV with header
+echo "Filename,Title,Comment" > "$CSV_OUTPUT"
+
+# Process each plist XML file
+for file in "$PLIST_DIR"/*.xml; do
+    echo "Processing $file..."
+
+    # Extract Title and Comment from plist (example keys)
+    TITLE=$(xmllint --xpath "string(//key[.='Title']/following-sibling::string[1])" "$file" 2>/dev/null)
+    COMMENT=$(xmllint --xpath "string(//key[.='Comment']/following-sibling::string[1])" "$file" 2>/dev/null)
+
+    # Write CSV line
+    echo "\"$(basename "$file")\",\"$TITLE\",\"$COMMENT\"" >> "$CSV_OUTPUT"
+done
+
+echo "Done! CSV: $CSV_OUTPUT"
