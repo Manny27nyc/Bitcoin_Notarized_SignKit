@@ -85,3 +85,14 @@ To request contribution rights or resolve licensing conflicts, submit a signed a
 ---
 
 *This repository is under strict authorship and licensing protection. Do not fork, clone, or redistribute without permission.*
+
+## Cryptographic JNI Authorship)
+
+- [`NativeSecp256k1_Authorship_Report_20250623.zip`](proof/NativeSecp256k1_Authorship_Report_20250623.zip)  
+  *Signed report validating cryptographic JNI originality (0% function overlap with CoreBitcoin)*
+
+
+### 🔐 Cryptographic JNI Authorship Extension
+
+[`cleaned_org_bitcoin_NativeSecp256k1_Proof_20250623.zip`](proof/cleaned_org_bitcoin_NativeSecp256k1_Proof_20250623.zip)  
+*Includes GPG signature and SHA256 notarization of `verifyAuthorship()` — zero overlap with CoreBitcoin.*
