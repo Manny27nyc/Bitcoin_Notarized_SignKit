@@ -33,3 +33,7 @@
 **Signature:** [License_Enforcement_June2025_Package_all.zip.asc](./License_Enforcement_June2025_Package_all.zip.asc)
 **GPG Verified By:** Manuel Nieves (KeyOfGenesis) 
 **IPFS Mirror:** https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm
+### 🔐 Authorship Verification
+
+GPG Signature: `License_Enforcement_June2025_Package_all.zip.asc`  
+IPFS Link: [bafybeiar...](https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm)
