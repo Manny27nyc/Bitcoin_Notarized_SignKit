@@ -24,8 +24,6 @@
  * 🔑 GPG Fingerprint: B4EC 7343 AB0D BF24
  * 🪙 BTC Authorship Address: 1C85vKNtpPnNQLQi3rMmM797yBD3558UEC
  */
-?>
-
 ---
 ## 🔐 Licensing Enforcement (June 2025)
 
