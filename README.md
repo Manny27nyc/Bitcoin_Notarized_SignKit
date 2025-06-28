@@ -25,3 +25,11 @@
  * 🪙 BTC Authorship Address: 1C85vKNtpPnNQLQi3rMmM797yBD3558UEC
  */
 ?>
+
+---
+## 🔐 Licensing Enforcement (June 2025)
+
+**Bundle:** [License_Enforcement_June2025_Package_all.zip](./License_Enforcement_June2025_Package_all.zip)
+**Signature:** [License_Enforcement_June2025_Package_all.zip.asc](./License_Enforcement_June2025_Package_all.zip.asc)
+**GPG Verified By:** Manuel Nieves (KeyOfGenesis) 
+**IPFS Mirror:** https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm
