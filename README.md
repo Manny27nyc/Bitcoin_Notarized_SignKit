@@ -1,3 +1,6 @@
+
+🔗 **Public CID (GPG-Signed Bundle)**: [bafybeicb7d655chfnad3pdcz3tww3lxloqzkbkqiem2bbi67n5d7aum24e](https://w3s.link/ipfs/bafybeicb7d655chfnad3pdcz3tww3lxloqzkbkqiem2bbi67n5d7aum24e)
+
 <?php
 /*
  * 📜 Verified Authorship Notice
