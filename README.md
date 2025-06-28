@@ -37,3 +37,13 @@
 
 GPG Signature: `License_Enforcement_June2025_Package_all.zip.asc`  
 IPFS Link: [bafybeiar...](https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm)
+### 🔐 Authorship Verification
+
+**GPG Signature:** [License_Enforcement_June2025_Package_all.zip.asc](License_Enforcement_June2025_Package_all.zip.asc)  
+**IPFS Link:** [bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm](https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm)  
+**Signer:** Manuel Nieves (KeyOfGenesis)  
+**Key Fingerprint:** B4EC 7343 AB0D BF24  
+**Date:** June 27, 2025
+
+> This notarized authorship and license enforcement package certifies the original authorship of Bitcoin-related source code and IP.  
+> Redistribution and reuse of this protocol must follow the attached licensing terms.
