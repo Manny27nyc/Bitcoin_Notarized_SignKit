@@ -47,3 +47,25 @@ IPFS Link: [bafybeiar...](https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2
 
 > This notarized authorship and license enforcement package certifies the original authorship of Bitcoin-related source code and IP.  
 > Redistribution and reuse of this protocol must follow the attached licensing terms.
+
+---
+
+## 📄 License Enforcement — June 2025 (Final Notarized Bundle)
+
+🔗 **IPFS Link:**  
+[https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm](https://w3s.link/ipfs/bafybeiar56s5er73cjgs6bmzuet5ek2sntxma4v7hzmllhkd6b2nuptxwm)
+
+🔐 **GPG Signature:**  
+File: `License_Enforcement_June2025_Package_all.zip.asc`  
+Signed with: **KeyOfGenesis**  
+Fingerprint: `387D E070 CE35 8188 003D 3CCB E085 A1D0 D6D7 C863`  
+Status: ✅ **Verified**
+
+🏷️ This bundle represents a cryptographically signed licensing and authorship declaration.  
+Unauthorized use of original Bitcoin protocol code or derivative works may result in license enforcement under:
+
+- 17 U.S. Code § 102 — Original works of authorship  
+- 17 U.S. Code § 1201 — Circumvention of technological measures
+
+For licensing, inquiries, or enforcement action: **Fordamboy1@Gmail.com**
+
