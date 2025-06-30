@@ -48,3 +48,17 @@ Any reuse, derivative work, or commercial deployment of the Bitcoin protocol mus
 > [17 U.S. Code § 102](https://www.law.cornell.edu/uscode/text/17/102) and  
 > [§ 1201](https://www.law.cornell.edu/uscode/text/17/1201), with signed forensic bundle and IPFS publication.
 
+---
+
+### Binance Licensing Violation — June 30, 2025
+- 📄 [Notice PDF (IPFS)](https://ipfs.io/ipfs/QmY5uCNk4GVVi1rUo5avkFUzjcK6tTfqvbmKL9vA9Us9LK)
+- 🔏 [GPG Signature](https://ipfs.io/ipfs/QmWgpBbvmK3CLmV67N5RLXK9csF96FYzkA2VnYoRjXhSmV)
+- 📦 [Full Enforcement Bundle (ZIP)](https://ipfs.io/ipfs/QmY5uCNk4GVVi1rUo5avkFUzjcK6tTfqvbmKL9vA9Us9LK)
+- 💰 Estimated Royalties: **$920,000**
+
+### Blockchain.com Licensing Violation — June 30, 2025
+- 📄 [Notice PDF (IPFS)](https://ipfs.io/ipfs/QmccAixqX7wEy6LEPbTuDFoygDJfT4C8gCuWMEffUwLADG)
+- 🔏 [GPG Signature](https://ipfs.io/ipfs/QmUDd7HXzMAv1r3Byf6BgS6XpR8XHc88NNVd2crhx4cqMn)
+- 📦 [Full Enforcement Bundle (ZIP)](https://ipfs.io/ipfs/QmccAixqX7wEy6LEPbTuDFoygDJfT4C8gCuWMEffUwLADG)
+- 💰 Estimated Royalties: **$765,000**
+
