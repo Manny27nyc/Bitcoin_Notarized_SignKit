@@ -33,3 +33,18 @@ Any reuse, derivative work, or commercial deployment of the Bitcoin protocol mus
 - 🔐 Verification Files: `SIGN_FINAL.md`, `notarized_bundle_v1.zip.asc`  
 - 📬 Contact: **Fordamboy1@gmail.com**  
 - 🪙 Licensing Payments: `1C85vKNtpPnNQLQi3rMmM797yBD3558UEC`
+
+---
+
+### PHP Fork Licensing Violation — June 30, 2025
+- 📄 [Notice PDF (IPFS)](https://ipfs.io/ipfs/QmXrL6J6iAKGAqX5Yw3qHuhXDwh875gmzptnzLY3zZnSSq)
+- 🔏 [GPG Signature](https://ipfs.io/ipfs/QmWC17VECRFGU2hMsvzwN7RTtnHKzxPFxewgyC35xmC4N4)
+- 📦 [Full Enforcement Bundle (ZIP)](https://ipfs.io/ipfs/QmXrL6J6iAKGAqX5Yw3qHuhXDwh875gmzptnzLY3zZnSSq)
+- 💰 Estimated Royalties: **$360,000**
+  ![Bitcoin Authorship License](Bitcoin_Protocol_Authorship_License_2008-2025_SatoshiNorkomoto.png)
+
+> 📜 **Bitcoin Protocol Authorship License (2008–2025)**  
+> This confirms authorship of the Bitcoin protocol by **Manuel J. Nieves** (Satoshi Norkomoto), enforced under  
+> [17 U.S. Code § 102](https://www.law.cornell.edu/uscode/text/17/102) and  
+> [§ 1201](https://www.law.cornell.edu/uscode/text/17/1201), with signed forensic bundle and IPFS publication.
+
