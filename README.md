@@ -1,4 +1,10 @@
-![Bitcoin Authorship License](Bitcoin_Protocol_Authorship_License_2008-2025_SatoshiNorkomoto.png)
+## 📁 Licensing Enforcement Records (2025)
+
+### Kraken Licensing Violation — June 30, 2025
+- 📄 [Notice PDF (IPFS)](https://ipfs.io/ipfs/QmdZCEMBR6BVQDPV367jRuGxKy1AkEmrYvLyB84e4hVApc)
+- 🔏 [GPG Signature](https://ipfs.io/ipfs/QmaiiCt2oUdkPMp2nuwBkQsVEiRrzYy6QqUGhXoJmxYHrh)
+- 📦 [Full Enforcement Bundle (ZIP)](https://ipfs.io/ipfs/Qmau99LwZLWcgoaeE8ipvt6Pqix264D17UrztYp76kmkYE)
+- 💰 Estimated Royalties: **$530,000**![Bitcoin Authorship License](Bitcoin_Protocol_Authorship_License_2008-2025_SatoshiNorkomoto.png)
 
 > 📜 **Bitcoin Protocol Authorship License (2008–2025)**  
 > This document certifies authorship of the Bitcoin protocol by **Manuel J. Nieves** (Satoshi Norkomoto).  
