@@ -62,3 +62,16 @@ Any reuse, derivative work, or commercial deployment of the Bitcoin protocol mus
 - 📦 [Full Enforcement Bundle (ZIP)](https://ipfs.io/ipfs/QmccAixqX7wEy6LEPbTuDFoygDJfT4C8gCuWMEffUwLADG)
 - 💰 Estimated Royalties: **$765,000**
 
+---
+
+### Ethereum Foundation Licensing Violation — June 30, 2025
+- 📄 [Notice PDF (IPFS)](https://ipfs.io/ipfs/QmfVDXKmvxw1z8KrhvHTihCmQtrPKtq2VPtMsSk6dPGUg1)
+- 🔏 [GPG Signature](https://ipfs.io/ipfs/QmXyUMmUe2kcdDRbd6DvwUjEEMmYZFz7ZPP5TL2vcKrZqi)
+- 📦 [Full Enforcement Bundle (ZIP)](https://ipfs.io/ipfs/QmfVDXKmvxw1z8KrhvHTihCmQtrPKtq2VPtMsSk6dPGUg1)
+- 💰 Estimated Royalties: **$1,400,000**
+
+> 📜 **Bitcoin Protocol Authorship License (2008–2025)**  
+> Authored and cryptographically verified by **Manuel J. Nieves** (Satoshi Norkomoto)  
+> Enforced under [17 U.S. Code § 102](https://www.law.cornell.edu/uscode/text/17/102) and  
+> [§ 1201](https://www.law.cornell.edu/uscode/text/17/1201)
+
