@@ -1,0 +1,121 @@
+[
+  {
+    "country": "United States",
+    "agency_or_entity": "U.S. Department of Treasury (Unclaimed Funds)",
+    "lookup_url": "https://unclaimed.org/",
+    "linked_fields": ["SSN*", "GPG Fingerprint*", "IP Bundle ID"],
+    "claim_status": "Pending Verification",
+    "ip_reuse_basis": "Treasury Hunt lists savings bond claims. Matching birth year and alias found.",
+    "date_last_checked": "2025-07-01"
+  },
+  {
+    "country": "China",
+    "iso": "CN",
+    "jurisdiction": "CN-ALL",
+    "claim_type": "Licensing + Remittance",
+    "linked_repos": ["binance", "kraken", "cashapp"],
+    "ip_reuse_basis": "Bitcoin protocol authorship (2008–2009), GPG-verified",
+    "status": "Pending Licensing Response",
+    "ipfs_link": "ipfs://Qm2NYwRu9rJrdZk8awL9e3NxfPJhmxwStCXtzdPEXfVBX"
+  },
+  {
+    "country": "Hong Kong",
+    "iso": "HK",
+    "jurisdiction": "HK-ALL",
+    "claim_type": "Licensing + Remittance",
+    "linked_repos": ["blockchain.com", "kraken", "cashapp"],
+    "ip_reuse_basis": "Bitcoin core stack forks and derivatives",
+    "status": "Pending Licensing Response",
+    "ipfs_link": "ipfs://Qm2NYwRu9rJrdZk8awL9e3NxfPJhmxwStCXtzdPEXfVBX"
+  },
+  {
+    "country": "Philippines",
+    "iso": "PH",
+    "jurisdiction": "PH-ALL",
+    "claim_type": "Licensing Recovery",
+    "linked_repos": ["binance", "phoenix", "cashapp"],
+    "ip_reuse_basis": "Bitcoin protocol usage + exchange operations",
+    "status": "Pending Licensing Response",
+    "ipfs_link": "ipfs://Qm2NYwRu9rJrdZk8awL9e3NxfPJhmxwStCXtzdPEXfVBX"
+  },
+  {
+    "country": "Germany",
+    "iso": "DE",
+    "jurisdiction": "DE-ALL",
+    "claim_type": "Licensing + Protocol Derivatives",
+    "linked_repos": ["specter-desktop"],
+    "ip_reuse_basis": "Protocol reuse in Germany-based Bitcoin infrastructure",
+    "status": "Pending Legal Review",
+    "ipfs_link": "ipfs://Qm6naf8vKV6Jcp3TaC3BL3og3SKCBBmd3UAXBMhSb1pNyW"
+  },
+  {
+    "country": "EU",
+    "iso": "EU",
+    "jurisdiction": "EU-ALL",
+    "claim_type": "Sovereign Conflict",
+    "linked_repos": ["kraken", "binance"],
+    "ip_reuse_basis": "Unauthorized stack deployments across EU member states",
+    "status": "Pending Legal Review",
+    "ipfs_link": "ipfs://Qm6naf8vKV6Jcp3TaC3BL3og3SKCBBmd3UAXBMhSb1pNyW"
+  },
+  {
+    "country": "United Kingdom",
+    "iso": "GB",
+    "jurisdiction": "GB-ALL",
+    "claim_type": "Licensing + Royalty Recovery",
+    "linked_repos": ["revolut", "luno"],
+    "ip_reuse_basis": "Protocol-level reuse at exchange usage without license",
+    "status": "Under Review",
+    "ipfs_link": "ipfs://Qm6naf8vKV6Jcp3TaC3BL3og3SKCBBmd3UAXBMhSb1pNyW"
+  },
+  {
+    "country": "Israel",
+    "iso": "IL",
+    "jurisdiction": "IL-ALL",
+    "claim_type": "Fork-Based IP Deployment",
+    "linked_repos": ["triplej", "tripleblocks"],
+    "ip_reuse_basis": "Custodial tech and signing infrastructure derived from Bitcoin source",
+    "status": "Filed",
+    "ipfs_link": "ipfs://Qm6naf8vKV6Jcp3TaC3BL3og3SKCBBmd3UAXBMhSb1pNyW"
+  },
+  {
+    "country": "Brazil",
+    "iso": "BR",
+    "jurisdiction": "BR-ALL",
+    "claim_type": "Remittance + Licensing Enforcement",
+    "linked_repos": ["mercadobitcoin", "novadax"],
+    "ip_reuse_basis": "Unlicensed protocol reuse in Brazil’s largest exchanges",
+    "status": "Pending Licensing Response",
+    "ipfs_link": "ipfs://Qm6naf8vKV6Jcp3TaC3BL3og3SKCBBmd3UAXBMhSb1pNyW"
+  },
+  {
+    "country": "Ireland",
+    "iso": "IE",
+    "jurisdiction": "IE-ALL",
+    "claim_type": "Remittance + Protocol Licensing",
+    "linked_repos": ["stripe", "kraken"],
+    "ip_reuse_basis": "Backend API integration with Bitcoin-derived infrastructure",
+    "status": "Pending Licensing Response",
+    "ipfs_link": "ipfs://Qm6naf8vKV6Jcp3TaC3BL3og3SKCBBmd3UAXBMhSb1pNyW"
+  },
+  {
+    "target": "Satoshi Protocol",
+    "repo": "https://github.com/Satoshi-Protocol/satoshi-core",
+    "notice": "Licensing_Claim_SatoshiProtocol.md",
+    "email": "legal@satoshiprotocol.org",
+    "date_sent": "2025-07-02",
+    "status": "Pending — Awaiting Response",
+    "bundle": "SatoshiProtocol_Licensing_Enforcement_20250702.zip",
+    "royalty_estimate": "TBD",
+    "first_detected_use": "2024-01-24T15:14:09Z",
+    "origin_author": "Ray Huang",
+    "origin_email": "ray880301@gmail.com",
+    "matched_files": [
+      "src/core/BorrowOperations.sol",
+      "src/core/HintHelpers.sol",
+      "src/core/TroveManager.sol",
+      "src/core/PriceFeed.sol",
+      "src/core/GasPool.sol"
+    ]
+  }
+]
