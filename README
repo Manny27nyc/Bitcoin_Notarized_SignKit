@@ -1,1 +1,44 @@
-README.md
+# 🔐 Bitcoin Notarized SignKit
+
+**Author:** Manuel J. Nieves (aka Satoshi Norkomoto)  
+**Legal Protections:**  
+- 📜 U.S. Copyright Law: **17 U.S. Code § 102** (Original works of authorship)  
+- 🔒 Digital Rights Enforcement: **17 U.S. Code § 1201** (Circumvention of Technological Measures)
+
+---
+
+## 📦 Notarized Source Authorship Bundle
+
+- **ZIP Archive:** [Download via IPFS](https://ipfs.io/ipfs/QmXo6jNpGTy8U4RudngNjK4CxeRCEH8SAtn4PfFAeUwSXN)  
+- **SHA256 Checksum:**  
+  `$(cat notarized_exports/Bitcoin_SourceAuthorship_20250701.sha256.txt)`
+
+**Contents:**
+- `src_final/` – Cleaned and header-injected Bitcoin source code  
+- `tools/inject_authorship_headers.py` – Injection and notarization script  
+- GPG-verified Git history and licensing enforcement metadata  
+
+---
+
+## 🛑 Licensing & Enforcement
+
+All reuse of the Bitcoin protocol, code, or whitepaper materials covered in this repository is subject to licensing.  
+**Violators will face IP enforcement, DMCA action, or royalty demands.**
+
+### ⏳ Compliance Window
+
+- **7 business days** from first notice  
+- Contact: **Fordamboy1@gmail.com**
+
+---
+
+## 🔍 Public Verification
+
+This repository stands as an immutable public authorship anchor — timestamped, hash-matched, and notarized.
+
+---
+
+## 🧾 Legal Notice
+
+All authorship and derivative rights are held by Manuel J. Nieves.  
+Commercial use, redistribution, or fork-based monetization requires **explicit licensing**.
