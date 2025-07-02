@@ -1,0 +1,52 @@
+{
+  "summary_generated": "2025-07-02",
+  "enforcement_packets": [
+    "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250701.zip",
+    "FinLaas_Licensing_Packet_20250701.zip",
+    "Jenkins_Licensing_Enforcement_20250702.zip"
+  ],
+  "total_enforcements": 3,
+  "royalty_per_target_usd": 250000,
+  "total_royalties_due_usd": 750000,
+  "ipfs_distributed": true,
+  "gpg_signed": true,
+  "author": "Manuel J. Nieves",
+  "contact": "Fordamboy1@gmail.com"
+}
+{
+  "summary_generated": "2025-07-02",
+  "enforcement_packets": [
+    "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250701.zip",
+    "FinLaas_Licensing_Packet_20250701.zip",
+    "Jenkins_Licensing_Enforcement_20250702.zip"
+  ],
+  "total_enforcements": 3,
+  "royalty_per_target_usd": 250000,
+  "total_royalties_due_usd": 750000,
+  "ipfs_distributed": true,
+  "gpg_signed": true,
+  "author": "Manuel J. Nieves",
+  "contact": "Fordamboy1@gmail.com"
+}
+{
+  "summary_generated": "2025-07-02",
+  "enforcement_packets": [
+    "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250702.zip",
+    "Jenkins_Licensing_Enforcement_20250702.zip"
+  ],
+  "total_enforcements": 4,
+  "royalty_per_target_usd": 250000,
+  "total_royalties_due_usd": 1000000,
+  "ipfs_distributed": true,
+  "gpg_signed": true,
+  "author": "Manuel J. Nieves",
+  "contact": "Fordamboy1@gmail.com"
+}
+
+{
+  "target": "BitWasp/bitcoin-php",
+  "ipfs_hash": "QmRpt7zo3QbGroNZHTmdEvkFWWv5QqrRezGpzU6HjKLo9p",
+  "signed_bundle": "BitWasp_Licensing_Enforcement_20250701.zip.asc",
+  "date": "2025-07-01",
+  "summary": "Confirmed IP reuse in BitWasp PHP Bitcoin repo. Enforced and notarized July 1, 2025."
+}

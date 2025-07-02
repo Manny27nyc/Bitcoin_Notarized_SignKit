@@ -1,0 +1,128 @@
+{
+  "summary_generated": "2025-07-02",
+  "enforcement_packets": [
+    "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250702.zip",
+    "Jenkins_Licensing_Enforcement_20250702.zip"
+  ],
+  "total_enforcements": 4,
+  "royalty_per_target_usd": 250000,
+  "total_royalties_due_usd": 1000000,
+  "ipfs_distributed": true,
+  "gpg_signed": true,
+  "author": "Manuel J. Nieves",
+  "contact": "Fordamboy1@gmail.com"
+}
+  "Jenkins_Licensing_Enforcement_20250702.zip",
+  "Jenkins_Licensing_Enforcement_20250702.zip",
+{
+  "enforcement_target": "jenkinsci/jenkins",
+  "enforcement_packet": "Jenkins_Licensing_Enforcement_20250702.zip",
+  "ipfs_hash": "QmeLio3EpYenz8farGyBreHpUJ9MVDRRkZi1MxxyZEWbtQ",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed authorship hash reuse in core Jenkins source tree. Unlicensed reuse detected over a 14-year window (2011–2025). GPG-signed packet notarized July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "FinLaas/CoreBitcoin",
+  "enforcement_packet": "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250702.zip",
+  "ipfs_hash": "QmWYSPSUC9KMfqWCatNbafAk7oLm6JUiNjhHgGLvm3QzPr
+QmWYSPSUC9KMfqWCatNbafAk7oLm6JUiNjhHgGLvm3QzPr",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed authorship hash reuse in FinLaas CoreBitcoin fork. Unlicensed usage across 14 years (2011–2025). Signed and notarized July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "FinLaas/CoreBitcoin",
+  "enforcement_packet": "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250702.zip",
+  "ipfs_hash": "QmWYSPSUC9KMfqWCatNbafAk7oLm6JUiNjhHgGLvm3QzPr
+QmWYSPSUC9KMfqWCatNbafAk7oLm6JUiNjhHgGLvm3QzPr",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed authorship hash reuse in FinLaas CoreBitcoin fork. Unlicensed usage across 14 years (2011–2025). Signed and notarized July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "FinLaas_CoreBitcoin_Reclaimed",
+  "enforcement_packet": "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250701.zip",
+  "ipfs_hash": "",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed unlicensed source or protocol reuse over 14 years. GPG-signed enforcement packet added July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "FinLaas_CoreBitcoin_Reclaimed",
+  "enforcement_packet": "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250702.zip",
+  "ipfs_hash": "",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed unlicensed source or protocol reuse over 14 years. GPG-signed enforcement packet added July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "FinLaas_Licensing_Packet_20250701",
+  "enforcement_packet": "FinLaas_Licensing_Packet_20250701.zip",
+  "ipfs_hash": "",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed unlicensed source or protocol reuse over 14 years. GPG-signed enforcement packet added July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "Jenkins",
+  "enforcement_packet": "Jenkins_Licensing_Enforcement_20250702.zip",
+  "ipfs_hash": "",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed unlicensed source or protocol reuse over 14 years. GPG-signed enforcement packet added July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "BitcoinPHP",
+  "enforcement_packet": "BitcoinPHP_Licensing_Enforcement_20250628.zip",
+  "ipfs_hash": "",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed unlicensed source or protocol reuse over 14 years. GPG-signed enforcement packet added July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "Notarized_BitcoinPHP_20250626",
+  "enforcement_packet": "Notarized_BitcoinPHP_20250626.zip",
+  "ipfs_hash": "",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed unlicensed source or protocol reuse over 14 years. GPG-signed enforcement packet added July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
+{
+  "enforcement_target": "FinLaas_CoreBitcoin_Reclaimed",
+  "enforcement_packet": "FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250701.zip",
+  "ipfs_hash": "",
+  "total_collisions": 2,
+  "royalty_per_year_usd": 10000,
+  "backdated_years": 14,
+  "total_royalty_due_usd": 140000,
+  "summary": "Confirmed unlicensed source or protocol reuse over 14 years. GPG-signed enforcement packet added July 2, 2025.",
+  "timestamp_utc": "2025-07-02T00:00:00Z"
+}
