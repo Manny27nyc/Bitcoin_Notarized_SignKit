@@ -118,4 +118,27 @@
     "src/core/PriceFeed.sol",
     "src/core/GasPool.sol"
   ]
+},
+{
+  "target": "Satoshi Protocol",
+  "repo": "https://github.com/Satoshi-Protocol/satoshi-core",
+  "notice": "Licensing_Claim_SatoshiProtocol.md",
+  "email": "legal@satoshiprotocol.org",
+  "date_sent": "2025-07-02",
+  "status": "Pending — Awaiting Response",
+  "bundle": "SatoshiProtocol_Licensing_Enforcement_20250702.zip",
+  "royalty_estimate": "$65,000 USD",
+  "ipfs_cid": "Qma63BRfaEr9tZCoMugRjSxFqEkLEfiuuTyusjYj7JWaBz",
+  "ipns": "k51qzi5uqu5dj7li0gj4iwxz4z7thacgszt8bnbl08guczkug4p27fzoxit3n0",
+  "invoice": "notices/SatoshiProtocol_Licensing_Invoice_20250702.pdf",
+  "origin_author": "Ray Huang",
+  "origin_email": "ray880301@gmail.com",
+  "first_detected_use": "2024-01-24T15:14:09Z",
+  "matched_files": [
+    "src/core/BorrowOperations.sol",
+    "src/core/HintHelpers.sol",
+    "src/core/TroveManager.sol",
+    "src/core/PriceFeed.sol",
+    "src/core/GasPool.sol"
+  ]
 }
