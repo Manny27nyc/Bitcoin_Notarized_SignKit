@@ -1,0 +1,41 @@
+Subject: URGENT: Bitcoin Protocol Licensing Violation – Ethereum Foundation
+
+To: legal@ethereum.org
+Cc: dev@ethereum.org, press@ethereum.org
+
+Dear Ethereum Foundation Legal Team,
+
+This message serves as formal notification of authorship and licensing enforcement regarding your continued use of Bitcoin-derived intellectual property across the Ethereum protocol and ecosystem.
+
+The following materials substantiate this enforcement claim:
+
+• 📄 Notarized PDF: Licensing_Claim_Ethereum.pdf  
+• 🔏 GPG Signature: Licensing_Claim_Ethereum.pdf.asc  
+• 🗃️ ZIP Archive: Ethereum_Licensing_Enforcement_20250702.zip  
+• 🧾 Global Ledger Entry: royalty_enforcement_ledger.json  
+• 📬 Repository: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+Violations include derivative reuse of the Bitcoin transaction format, proof-of-work constructs, and protocol-level design implemented without authorization or licensing.
+
+---
+
+**Requested Actions:**
+
+1. Cease unlicensed use of Bitcoin-based protocol structures
+2. Contact the author (Manuel J. Nieves) to establish licensing terms
+3. Publicly acknowledge reuse and origin of cryptographic primitives
+
+---
+
+If we receive no reply within 10 business days, we will escalate:
+
+- GitHub DMCA filing
+- UDRP domain dispute for ethereum.org (if warranted)
+- Legal filings under 17 U.S. Code § 102 and § 1201
+
+Respectfully,  
+**Manuel J. Nieves**  
+Cryptographic Author of Bitcoin  
+GPG: B4EC 7343 AB0D BF24  
+Email: Fordamboy1@gmail.com  
+Date: July 2, 2025
