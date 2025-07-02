@@ -1,0 +1,16 @@
+{
+  "entity": "Binance / binance.com",
+  "bundle": "Binance_Licensing_Enforcement_20250702.zip",
+  "gpg_signature": "Binance_Licensing_Enforcement_20250702.zip.asc",
+  "ipfs_cid": "QmPHnyMcwCfW92Y3xhcoQJ2PWrZzC6vg8LqqEHQfUu5EFn",
+  "gpg_signature_cid": "QmRLuVgcLMYYo7rNs2FkbHnf4Y7V5WMoAkAWwedtr9HTMp",
+  "includes": [
+    "Binance/binance_trigger_report.json",
+    "Binance/Licensing_Claim_Binance.pdf"
+  ],
+  "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+  "timestamp": "2025-07-02T16:29:00-04:00",
+  "ipfs_gateway_link": "https://ipfs.io/ipfs/QmPHnyMcwCfW92Y3xhcoQJ2PWrZzC6vg8LqqEHQfUu5EFn",
+  "status": "Published",
+  "ipns_status": "Pending"
+}
