@@ -22,3 +22,9 @@ This log will be updated continuously. If no contact is made by July 16, 2025, e
 Manuel J. Nieves  
 Bitcoin Protocol Author  
 (GPG: B4EC 7343 AB0D BF24)
+### 🌐 Full Archive Access
+
+- **IPFS CID**: [Qma63BRfaEr9tZCoMugRjSxFqEkLEfiuuTyusjYj7JWaBz](https://ipfs.io/ipfs/Qma63BRfaEr9tZCoMugRjSxFqEkLEfiuuTyusjYj7JWaBz)  
+- **Bundle**: `All_Licensing_Notices_20250702.zip`  
+- **Signature**: `All_Licensing_Notices_20250702.zip.asc`
+
