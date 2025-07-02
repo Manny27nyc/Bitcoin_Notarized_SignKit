@@ -4,4 +4,19 @@
     ...
     "status": "Pending Legal Contact Response"
   }
-][]
+[
+
+{
+  "bundle": "Global_Licensing_Claims_20250702.zip",
+  "ipfs_cid": "QmPCuAouYYtr6WrzqMLGGu16tLo8BGpxsNAj5Eu79xWxAG",
+  "gpg_signature": "Global_Licensing_Claims_20250702.zip.asc",
+  "pdfs_included": [
+    "Licensing_Claim_Coinbase.pdf",
+    "Licensing_Claim_Ethereum.pdf",
+    "Licensing_Claim_NewTarget.pdf",
+    "Licensing_Claim_UserAgentSatoshi.pdf"
+  ],
+  "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+  "timestamp": "2025-07-02T14:48:00-04:00",
+  "status": "Published to GitHub and IPFS"
+}]
