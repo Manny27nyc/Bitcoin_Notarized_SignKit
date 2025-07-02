@@ -1,8 +1,0 @@
-CID: bafybeihlhfoc3fzxs36zfj7rhmnkv6np3su5noboxw6cupj7ssyktxs3ve
-Filename: License_Enforcement_June2025.zip
-SHA256: e4b9youractualhashhere...
-Date: 2025-06-27
-Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
-GPG Fingerprint: B4EC 7343 AB0D BF24
-License: Use of this archive and its contents without written license is prohibited under 17 U.S. Code § 102 and § 1201.
-Any forks or reuse will be enforced via DMCA, IPFS logging, and legal recourse.
