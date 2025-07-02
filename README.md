@@ -74,4 +74,33 @@ Any reuse, derivative work, or commercial deployment of the Bitcoin protocol mus
 > Authored and cryptographically verified by **Manuel J. Nieves** (Satoshi Norkomoto)  
 > Enforced under [17 U.S. Code § 102](https://www.law.cornell.edu/uscode/text/17/102) and  
 > [§ 1201](https://www.law.cornell.edu/uscode/text/17/1201)
+      
+---
 
+## ⚠️ Licensing Clarification
+
+This repository contains original Bitcoin protocol source files authored by **Manuel J. Nieves** (aka **Satoshi Norkomoto**) between 2008–2009.  
+Some files may include legacy references to the “MIT/X11 software license” for compatibility reasons. However, **all such files are explicitly marked with enforcement language prohibiting commercial use without direct licensing**.
+
+> 🔐 This repository constitutes a **public notarized authorship declaration and licensing enforcement archive**.  
+> It overrides any presumed permissive interpretation by reinforcing authorship rights under U.S. and international intellectual property law.
+
+Redistribution, modification, protocol reuse, or commercial deployment of this source code — in part or whole — is governed by **active authorship and licensing control**, protected under:
+
+- **17 U.S. Code § 102** — Original Works of Authorship  
+- **17 U.S. Code § 1201** — Anti-circumvention and Licensing Safeguards  
+- **Berne Convention** and the **WIPO Copyright Treaty**
+
+---
+
+**Licensing Enforcement Identifier:** `BTC-MJN-2008-GENESIS`  
+**Rights Holder:** Manuel J. Nieves (Satoshi Norkomoto)  
+**GPG Fingerprint:** `B4EC 7343 AB0D BF24`
+
+All unauthorized use — including forks, derivative protocols, wallet integrations, or exchange deployment — is subject to:
+
+- Immediate DMCA takedown notices  
+- Retroactive royalty enforcement (2008–present)  
+- Legal action under civil and criminal intellectual property statutes
+
+For licensing inquiries, contact: **Fordamboy1@gmail.com
