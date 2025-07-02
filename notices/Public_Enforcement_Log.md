@@ -28,3 +28,6 @@ Bitcoin Protocol Author
 - **Bundle**: `All_Licensing_Notices_20250702.zip`  
 - **Signature**: `All_Licensing_Notices_20250702.zip.asc`
 
+
+- **IPNS (Live Archive)**:  
+  https://cloudflare-ipfs.com/ipns/k51qzi5uqu5dj7li0gj4iwxz4z7thacgszt8bnbl08guczkug4p27fzoxit3n0
