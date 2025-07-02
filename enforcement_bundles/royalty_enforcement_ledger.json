@@ -38,3 +38,31 @@
     "status": "Published to GitHub and IPFS"
   }
 ]
+,,
+{
+  "entity": "Kraken / kraken.com",
+  "status": "Pending Legal Contact Response",
+  "bundle": "Kraken_Licensing_Enforcement_20250702.zip",
+  "ipfs_cid": "[will insert after upload]",
+  "gpg_signature": "Kraken_Licensing_Enforcement_20250702.zip.asc",
+  "pdfs_included": [
+    "Licensing_Claim_Kraken.pdf"
+  ],
+  "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+  "timestamp": "2025-07-02T[will_insert]-04:00",
+  "status": "To be published to GitHub and IPFS"
+}
+,
+{
+  "entity": "Kraken / kraken.com",
+  "status": "Published to GitHub and IPFS",
+  "bundle": "Kraken_Licensing_Enforcement_20250702.zip",
+  "ipfs_cid": "QmWfZ8qwLVECJoi8zwxp2E8hsCKALABs4B6RZTkU84NK1r",
+  "gpg_signature": "Kraken_Licensing_Enforcement_20250702.zip.asc",
+  "gpg_signature_cid": "QmYpYLGMPWw33nJPxbBaZFKKshUKki2gZZ8JacTV8sKik2",
+  "pdfs_included": [
+    "Licensing_Claim_Kraken.pdf"
+  ],
+  "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+  "timestamp": "2025-07-02T15:14:00-04:00"
+}
