@@ -99,23 +99,23 @@
     "ipfs_link": "ipfs://Qm6naf8vKV6Jcp3TaC3BL3og3SKCBBmd3UAXBMhSb1pNyW"
   },
   {
-    "target": "Satoshi Protocol",
-    "repo": "https://github.com/Satoshi-Protocol/satoshi-core",
-    "notice": "Licensing_Claim_SatoshiProtocol.md",
-    "email": "legal@satoshiprotocol.org",
-    "date_sent": "2025-07-02",
-    "status": "Pending — Awaiting Response",
-    "bundle": "SatoshiProtocol_Licensing_Enforcement_20250702.zip",
-    "royalty_estimate": "TBD",
-    "first_detected_use": "2024-01-24T15:14:09Z",
-    "origin_author": "Ray Huang",
-    "origin_email": "ray880301@gmail.com",
-    "matched_files": [
-      "src/core/BorrowOperations.sol",
-      "src/core/HintHelpers.sol",
-      "src/core/TroveManager.sol",
-      "src/core/PriceFeed.sol",
-      "src/core/GasPool.sol"
-    ]
-  }
-]
+  "target": "Satoshi Protocol",
+  "repo": "https://github.com/Satoshi-Protocol/satoshi-core",
+  "notice": "Licensing_Claim_SatoshiProtocol.md",
+  "email": "legal@satoshiprotocol.org",
+  "date_sent": "2025-07-02",
+  "status": "Pending — Awaiting Response",
+  "bundle": "SatoshiProtocol_Licensing_Enforcement_20250702.zip",
+  "ipfs_link": "ipfs://Qmf44r4BJpuw9tZzZER7CjgJW2Zjzz6PKexRjbj4iKGMvZ",
+  "royalty_estimate": "TBD" "royalty_estimate": "$65,000",,
+  "first_detected_use": "2024-01-24T15:14:09Z",
+  "origin_author": "Ray Huang",
+  "origin_email": "ray880301@gmail.com",
+  "matched_files": [
+    "src/core/BorrowOperations.sol",
+    "src/core/HintHelpers.sol",
+    "src/core/TroveManager.sol",
+    "src/core/PriceFeed.sol",
+    "src/core/GasPool.sol"
+  ]
+}
