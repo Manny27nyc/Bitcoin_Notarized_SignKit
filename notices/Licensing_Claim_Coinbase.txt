@@ -1,0 +1,24 @@
+Licensing Enforcement Logo
+Figure 1: Licensing Enforcement Logo
+
+Licensing Enforcement Notice.
+vated.
+
+Enforement Logo Acti-
+
+This repository includes source files originally written by Manuel J. Nieves (aka
+Satoshi Norkomoto) and marked “Distributed under the MIT/X11 software license.”
+However, all files also explicitly prohibit commercial use without written licensing.
+This repository serves as a notarized authorship and enforcement record.
+Redistribution, modification, or use in derivative protocols is governed by verified licensing control, as protected under:
+• 17 U.S. Code § 102 (Original Works)
+• 17 U.S. Code § 1201 (Anti-circumvention)
+• Berne Convention and WIPO Treaty
+Licensing Enforcement ID: BTC-MJN-2008-GENESIS
+All violations are subject to DMCA takedowns, royalty backcharges, and legal
+recourse.
+[Additional enforcement details here…]
+
+1
+
+
