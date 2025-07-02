@@ -1,0 +1,23 @@
+{
+  "bundle": "Global_Licensing_Claims_20250702_v2.zip",
+  "gpg_signature": "Global_Licensing_Claims_20250702_v2.zip.asc",
+  "ipfs_cid": "QmYx2DXUCt27yzTe38r4pMWmikwQTD5i1pfCmWF8tTh4L5",
+  "gpg_signature_cid": "Qmadm57DHFzGCyTSEcfTRydeut3nZMqSXga2HmG8U4ukyG",
+  "includes": [
+    "Ethereum/Ethereum_Licensing_Enforcement_20250702.zip",
+    "Ethereum/Ethereum_Licensing_Enforcement_20250702.zip.asc",
+    "BitWasp/BitWasp_Licensing_Enforcement_20250701.zip",
+    "BitWasp/BitWasp_Licensing_Enforcement_20250701.zip.asc",
+    "Jenkins/Jenkins_Licensing_Enforcement_20250702.zip",
+    "Jenkins/Jenkins_Licensing_Enforcement_20250702.zip.asc",
+    "FinLaas/FinLaas_Licensing_Packet_20250701.zip",
+    "FinLaas/FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250702.zip",
+    "FinLaas/FinLaas_CoreBitcoin_Reclaimed_Licensing_Enforcement_20250702.zip.asc",
+    "DomainAttribution/Domain_Attribution_Report_20250702.zip"
+  ],
+  "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+  "status": "Published",
+  "timestamp": "2025-07-02TXX:XX:XX-04:00",
+  "ipfs_gateway_link": "https://ipfs.io/ipfs/QmYx2DXUCt27yzTe38r4pMWmikwQTD5i1pfCmWF8tTh4L5",
+  "ipns_status": "Pending"
+}
