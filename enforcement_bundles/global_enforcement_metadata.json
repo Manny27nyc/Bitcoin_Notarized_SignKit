@@ -1,0 +1,23 @@
+{
+  "bundle": "Global_Licensing_Claims_20250702.zip",
+  "ipfs_cid": "QmXf7KUSLsmAHzrC7VuFH5DER38eSwddJVHZJX54z9iTna",
+  "gpg_signature": "Global_Licensing_Claims_20250702.zip.asc",
+  "gpg_signature_cid": "QmaKQW9akwfJcX5gtvwwGbd3c7C16vjyfySSTG2MLBDzfo",
+  "includes": [
+    "Kraken/Kraken_Licensing_Enforcement_20250702.zip",
+    "Kraken/Kraken_Licensing_Enforcement_20250702.zip.asc",
+    "Kraken/Licensing_Claim_Kraken.pdf",
+    "Kraken/royalty_enforcement_ledger.json",
+    "Binance/Binance_Licensing_Enforcement_20250702.zip",
+    "Binance/Binance_Licensing_Enforcement_20250702.zip.asc",
+    "Binance/Licensing_Claim_Binance.pdf",
+    "Binance/binance_trigger_report.json"
+  ],
+  "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+  "published": true,
+  "timestamp": "2025-07-02T15:58:00-04:00",
+  "ipfs_gateway_link": "https://ipfs.io/ipfs/QmXf7KUSLsmAHzrC7VuFH5DER38eSwddJVHZJX54z9iTna",
+  "ipns_id": "k51qzi5uqu5dj7li0gj4iwxz4z7thacgszt8bnbl08guczkug4p27fzoxit3n0",
+  "ipns_gateway_link": "https://ipfs.io/ipns/k51qzi5uqu5dj7li0gj4iwxz4z7thacgszt8bnbl08guczkug4p27fzoxit3n0",
+  "status": "Published"
+}
