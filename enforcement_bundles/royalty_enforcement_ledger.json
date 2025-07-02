@@ -1,22 +1,40 @@
 [
   {
     "entity": "Ethereum Foundation / ethereum.org",
-    ...
+    "domain": "ethereum.org",
+    "ip": "N/A",
+    "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+    "jurisdiction": "United States",
+    "law": ["17 U.S. Code § 102", "17 U.S. Code § 1201"],
+    "actions": [
+      "Created Licensing_Claim_Ethereum.md",
+      "Generated and signed Licensing_Claim_Ethereum.pdf",
+      "Uploaded PDF and .asc to GitHub",
+      "Prepared notarized ZIP bundle",
+      "Published to IPFS with CID"
+    ],
+    "evidence": {
+      "pdf": "notices/Licensing_Claim_Ethereum.pdf",
+      "gpg_signature": "notices/Licensing_Claim_Ethereum.pdf.asc",
+      "zip_bundle": "Ethereum_Licensing_Enforcement_20250702.zip",
+      "sha256": "[pending]",
+      "github": "https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit"
+    },
+    "timestamp": "2025-07-02T14:25:00-04:00",
     "status": "Pending Legal Contact Response"
+  },
+  {
+    "bundle": "Global_Licensing_Claims_20250702.zip",
+    "ipfs_cid": "QmPCuAouYYtr6WrzqMLGGu16tLo8BGpxsNAj5Eu79xWxAG",
+    "gpg_signature": "Global_Licensing_Claims_20250702.zip.asc",
+    "pdfs_included": [
+      "Licensing_Claim_Coinbase.pdf",
+      "Licensing_Claim_Ethereum.pdf",
+      "Licensing_Claim_NewTarget.pdf",
+      "Licensing_Claim_UserAgentSatoshi.pdf"
+    ],
+    "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
+    "timestamp": "2025-07-02T14:48:00-04:00",
+    "status": "Published to GitHub and IPFS"
   }
-[
-
-{
-  "bundle": "Global_Licensing_Claims_20250702.zip",
-  "ipfs_cid": "QmPCuAouYYtr6WrzqMLGGu16tLo8BGpxsNAj5Eu79xWxAG",
-  "gpg_signature": "Global_Licensing_Claims_20250702.zip.asc",
-  "pdfs_included": [
-    "Licensing_Claim_Coinbase.pdf",
-    "Licensing_Claim_Ethereum.pdf",
-    "Licensing_Claim_NewTarget.pdf",
-    "Licensing_Claim_UserAgentSatoshi.pdf"
-  ],
-  "author": "Manuel J. Nieves (aka Satoshi Norkomoto)",
-  "timestamp": "2025-07-02T14:48:00-04:00",
-  "status": "Published to GitHub and IPFS"
-}]
+]
