@@ -1,7 +1,10 @@
 ## 📁 Licensing Enforcement Records – 2025
 
 All enforcement actions below are notarized, GPG-signed, timestamped, and published to IPFS. They represent formal licensing violations of the Bitcoin protocol, authored and protected by **Manuel J. Nieves** (Satoshi Norkomoto) under 17 U.S. Code § 102 and § 1201.
+## 📡 Live Archive Links
 
+[![IPFS Snapshot](https://img.shields.io/badge/IPFS-Snapshot-blue)](https://cloudflare-ipfs.com/ipfs/Qma63BRfaEr9tZCoMugRjSxFqEkLEfiuuTyusjYj7JWaBz)
+[![IPNS Live](https://img.shields.io/badge/IPNS-Live-green)](https://cloudflare-ipfs.com/ipns/k51qzi5uqu5dj7li0gj4iwxz4z7thacgszt8bnbl08guczkug4p27fzoxit3n0)
 ---
 
 ### 🛑 Kraken Licensing Violation – June 30, 2025
