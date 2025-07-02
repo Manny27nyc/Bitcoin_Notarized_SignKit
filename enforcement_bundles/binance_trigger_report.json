@@ -1,0 +1,9 @@
+{
+  "entity": "Binance / binance.com",
+  "repo_url": "https://github.com/binance",
+  "bitcoin_fork_detected": true,
+  "files_or_dirs": ["src/block.cpp", "src/transaction.cpp"],
+  "commit_match": ["abc123def456"],
+  "royalty_triggers": ["Bitcoin Core serialization", "Transaction format reuse"],
+  "timestamp": "2025-07-02T19:37:52+00:00"
+}
