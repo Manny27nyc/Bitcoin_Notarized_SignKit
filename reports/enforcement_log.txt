@@ -1,2 +1,5 @@
 Kraken DMCA sent — July 3, 2025
 Thu Jul  3 04:14:35 EDT 2025: Repo fully updated post-Kraken DMCA, Coinbase bundle pinned, IPFS links validated.
+Thu Jul  3 16:19:50 EDT 2025: Licensing notice sent to CoreBitcoin maintainers. PDF: CoreBitcoin_Reclaimed_Notice.pdf
+Thu Jul  3 16:37:27 EDT 2025: Blockchain.com PDF notice and royalty invoice signed and bundled for enforcement.
+Thu Jul  3 16:57:43 EDT 2025: Blockchain.com licensing claim delivered via Gmail with 4 attachments.
