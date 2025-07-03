@@ -1,3 +1,5 @@
+![DMCA Notice](public/DMCA_Notice_Kraken_20250703.png)
+
 ![DMCA Notice](public/DMCA_Coinbase_Takedown_Notice_20250703.png)
 
 ## 📁 Licensing Enforcement Records – 2025
@@ -110,3 +112,4 @@ All unauthorized use — including forks, derivative protocols, wallet integrati
 
 For licensing inquiries, contact: **Fordamboy1@gmail.com
 [🔗 View Full Enforcement Bundle on IPFS](https://ipfs.io/ipfs/QmZ36JwwGjaVhehfyfw697o3kWJkJmANUzWbYvgB1AF23c)
+[🔗 View Full Enforcement Bundle on IPFS](https://ipfs.io/ipfs/QmUizZSHGXL9ySE9XdtdHRbJTzaxbqQgRjCKkHyhexfERt)
