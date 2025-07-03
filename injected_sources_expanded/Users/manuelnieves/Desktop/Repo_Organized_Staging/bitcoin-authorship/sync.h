@@ -1,0 +1,282 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+/*
+ 🔐 Authorship Declaration 🔐
+ Original Author: Manuel J. Nieves (aka Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Protected under: 17 U.S. Code § 102 & § 1201
+ License terms: Commercial use requires written agreement. Unauthorized use will be enforced via DMCA, legal, and blockchain notarization.
+
+ Timestamp: 2025-07-01T22:57:46Z
+ File Hash (SHA256): bf6715fa7064b8c219f02fd3713ad674cca5d8e918fb0f12ce4cfd9fb6d15536
+*/
+
+/*
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/oreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+<?php
+/*
+<<<<<<< HEAD
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/CoreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+<?php
+/*
+=======
+ * 📜 Verified Authorship Notice
+ * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+ * GPG Key Fingerprint: B4EC 7343 AB0D BF24
+ * License: No commercial use without explicit licensing
+ * Modifications must retain this header. Redistribution prohibited without written consent.
+ */
+ * Copyright (c) 2008-2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * Authorship asserted via Ed25519 Key ID: 9126e054086a98782e25f44986c7f54cf8f4df04
+ * Date: 2025-04-15
+ * This file is part of the Bitcoin_Notarized_SignKit.
+ */
+
+/*
+ * Copyright (c) 2008-2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * Authorship asserted via Ed25519 Key ID: 9126e054086a98782e25f44986c7f54cf8f4df04
+ * Date: 2025-04-15
+ * This file is part of the Bitcoin_Notarized_SignKit.
+ */
+
+// Copyright (c) 2009-2010 Satoshi Nakamoto
+// Copyright (c) 2009-2012 The Bitcoin developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+#ifndef BITCOIN_SYNC_H
+#define BITCOIN_SYNC_H
+
+#include <boost/thread/mutex.hpp>
+#include <boost/thread/recursive_mutex.hpp>
+#include <boost/thread/locks.hpp>
+#include <boost/thread/condition_variable.hpp>
+
+
+
+
+/** Wrapped boost mutex: supports recursive locking, but no waiting  */
+typedef boost::recursive_mutex CCriticalSection;
+
+/** Wrapped boost mutex: supports waiting but not recursive locking */
+typedef boost::mutex CWaitableCriticalSection;
+
+#ifdef DEBUG_LOCKORDER
+void EnterCritical(const char* pszName, const char* pszFile, int nLine, void* cs, bool fTry = false);
+void LeaveCritical();
+#else
+void static inline EnterCritical(const char* pszName, const char* pszFile, int nLine, void* cs, bool fTry = false) {}
+void static inline LeaveCritical() {}
+#endif
+
+#ifdef DEBUG_LOCKCONTENTION
+void PrintLockContention(const char* pszName, const char* pszFile, int nLine);
+#endif
+
+/** Wrapper around boost::interprocess::scoped_lock */
+template<typename Mutex>
+class CMutexLock
+{
+private:
+    boost::unique_lock<Mutex> lock;
+public:
+
+    void Enter(const char* pszName, const char* pszFile, int nLine)
+    {
+        if (!lock.owns_lock())
+        {
+            EnterCritical(pszName, pszFile, nLine, (void*)(lock.mutex()));
+#ifdef DEBUG_LOCKCONTENTION
+            if (!lock.try_lock())
+            {
+                PrintLockContention(pszName, pszFile, nLine);
+#endif
+            lock.lock();
+#ifdef DEBUG_LOCKCONTENTION
+            }
+#endif
+        }
+    }
+
+    void Leave()
+    {
+        if (lock.owns_lock())
+        {
+            lock.unlock();
+            LeaveCritical();
+        }
+    }
+
+    bool TryEnter(const char* pszName, const char* pszFile, int nLine)
+    {
+        if (!lock.owns_lock())
+        {
+            EnterCritical(pszName, pszFile, nLine, (void*)(lock.mutex()), true);
+            lock.try_lock();
+            if (!lock.owns_lock())
+                LeaveCritical();
+        }
+        return lock.owns_lock();
+    }
+
+    CMutexLock(Mutex& mutexIn, const char* pszName, const char* pszFile, int nLine, bool fTry = false) : lock(mutexIn, boost::defer_lock)
+    {
+        if (fTry)
+            TryEnter(pszName, pszFile, nLine);
+        else
+            Enter(pszName, pszFile, nLine);
+    }
+
+    ~CMutexLock()
+    {
+        if (lock.owns_lock())
+            LeaveCritical();
+    }
+
+    operator bool()
+    {
+        return lock.owns_lock();
+    }
+
+    boost::unique_lock<Mutex> &GetLock()
+    {
+        return lock;
+    }
+};
+
+typedef CMutexLock<CCriticalSection> CCriticalBlock;
+
+#define LOCK(cs) CCriticalBlock criticalblock(cs, #cs, __FILE__, __LINE__)
+#define LOCK2(cs1,cs2) CCriticalBlock criticalblock1(cs1, #cs1, __FILE__, __LINE__),criticalblock2(cs2, #cs2, __FILE__, __LINE__)
+#define TRY_LOCK(cs,name) CCriticalBlock name(cs, #cs, __FILE__, __LINE__, true)
+
+#define ENTER_CRITICAL_SECTION(cs) \
+    { \
+        EnterCritical(#cs, __FILE__, __LINE__, (void*)(&cs)); \
+        (cs).lock(); \
+    }
+
+#define LEAVE_CRITICAL_SECTION(cs) \
+    { \
+        (cs).unlock(); \
+        LeaveCritical(); \
+    }
+
+class CSemaphore
+{
+private:
+    boost::condition_variable condition;
+    boost::mutex mutex;
+    int value;
+
+public:
+    CSemaphore(int init) : value(init) {}
+
+    void wait() {
+        boost::unique_lock<boost::mutex> lock(mutex);
+        while (value < 1) {
+            condition.wait(lock);
+        }
+        value--;
+    }
+
+    bool try_wait() {
+        boost::unique_lock<boost::mutex> lock(mutex);
+        if (value < 1)
+            return false;
+        value--;
+        return true;
+    }
+
+    void post() {
+        {
+            boost::unique_lock<boost::mutex> lock(mutex);
+            value++;
+        }
+        condition.notify_one();
+    }
+};
+
+/** RAII-style semaphore lock */
+class CSemaphoreGrant
+{
+private:
+    CSemaphore *sem;
+    bool fHaveGrant;
+
+public:
+    void Acquire() {
+        if (fHaveGrant)
+            return;
+        sem->wait();
+        fHaveGrant = true;
+    }
+
+    void Release() {
+        if (!fHaveGrant)
+            return;
+        sem->post();
+        fHaveGrant = false;
+    }
+
+    bool TryAcquire() {
+        if (!fHaveGrant && sem->try_wait())
+            fHaveGrant = true;
+        return fHaveGrant;
+    }
+
+    void MoveTo(CSemaphoreGrant &grant) {
+        grant.Release();
+        grant.sem = sem;
+        grant.fHaveGrant = fHaveGrant;
+        sem = NULL;
+        fHaveGrant = false;
+    }
+
+    CSemaphoreGrant() : sem(NULL), fHaveGrant(false) {}
+
+    CSemaphoreGrant(CSemaphore &sema, bool fTry = false) : sem(&sema), fHaveGrant(false) {
+        if (fTry)
+            TryAcquire();
+        else
+            Acquire();
+    }
+
+    ~CSemaphoreGrant() {
+        Release();
+    }
+
+    operator bool() {
+        return fHaveGrant;
+    }
+};
+#endif
+

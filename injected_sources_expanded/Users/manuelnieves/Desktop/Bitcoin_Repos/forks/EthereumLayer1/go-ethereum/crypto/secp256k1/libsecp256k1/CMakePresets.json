@@ -1,0 +1,30 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+{
+  "cmakeMinimumRequired": {"major": 3, "minor": 21, "patch": 0}, 
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "dev-mode",
+      "displayName": "Development mode (intended only for developers of the library)",
+      "cacheVariables": {
+        "SECP256K1_EXPERIMENTAL": "ON",
+        "SECP256K1_ENABLE_MODULE_RECOVERY": "ON",
+        "SECP256K1_BUILD_EXAMPLES": "ON"
+      },
+      "warnings": {
+        "dev": true,
+        "uninitialized": true
+      }
+    }
+  ]
+}

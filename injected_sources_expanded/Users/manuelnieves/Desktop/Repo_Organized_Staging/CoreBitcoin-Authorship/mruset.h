@@ -1,0 +1,134 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+/*
+ 🔐 Authorship Declaration 🔐
+ Original Author: Manuel J. Nieves (aka Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Protected under: 17 U.S. Code § 102 & § 1201
+ License terms: Commercial use requires written agreement. Unauthorized use will be enforced via DMCA, legal, and blockchain notarization.
+
+ Timestamp: 2025-07-01T22:57:52Z
+ File Hash (SHA256): 1e336e71c9334bb3e704f0b6e557855a5c9a965103004d3425393846865e6d63
+*/
+
+/*
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/oreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+<?php
+/*
+<<<<<<< HEAD
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/CoreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+<?php
+/*
+=======
+ * 📜 Verified Authorship Notice
+ * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+ * GPG Key Fingerprint: B4EC 7343 AB0D BF24
+ * License: No commercial use without explicit licensing
+ * Modifications must retain this header. Redistribution prohibited without written consent.
+ */
+ * Copyright (c) 2008-2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * Authorship asserted via Ed25519 Key ID: 9126e054086a98782e25f44986c7f54cf8f4df04
+ * Date: 2025-04-15
+ * This file is part of the Bitcoin_Notarized_SignKit.
+ */
+
+/*
+ * Copyright (c) 2008-2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * Authorship asserted via Ed25519 Key ID: 9126e054086a98782e25f44986c7f54cf8f4df04
+ * Date: 2025-04-15
+ * This file is part of the Bitcoin_Notarized_SignKit.
+ */
+
+// Copyright (c) 2012 The Bitcoin developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+#ifndef BITCOIN_MRUSET_H
+#define BITCOIN_MRUSET_H
+
+#include <set>
+#include <deque>
+
+/** STL-like set container that only keeps the most recent N elements. */
+template <typename T> class mruset
+{
+public:
+    typedef T key_type;
+    typedef T value_type;
+    typedef typename std::set<T>::iterator iterator;
+    typedef typename std::set<T>::const_iterator const_iterator;
+    typedef typename std::set<T>::size_type size_type;
+
+protected:
+    std::set<T> set;
+    std::deque<T> queue;
+    size_type nMaxSize;
+
+public:
+    mruset(size_type nMaxSizeIn = 0) { nMaxSize = nMaxSizeIn; }
+    iterator begin() const { return set.begin(); }
+    iterator end() const { return set.end(); }
+    size_type size() const { return set.size(); }
+    bool empty() const { return set.empty(); }
+    iterator find(const key_type& k) const { return set.find(k); }
+    size_type count(const key_type& k) const { return set.count(k); }
+    bool inline friend operator==(const mruset<T>& a, const mruset<T>& b) { return a.set == b.set; }
+    bool inline friend operator==(const mruset<T>& a, const std::set<T>& b) { return a.set == b; }
+    bool inline friend operator<(const mruset<T>& a, const mruset<T>& b) { return a.set < b.set; }
+    std::pair<iterator, bool> insert(const key_type& x)
+    {
+        std::pair<iterator, bool> ret = set.insert(x);
+        if (ret.second)
+        {
+            if (nMaxSize && queue.size() == nMaxSize)
+            {
+                set.erase(queue.front());
+                queue.pop_front();
+            }
+            queue.push_back(x);
+        }
+        return ret;
+    }
+    size_type max_size() const { return nMaxSize; }
+    size_type max_size(size_type s)
+    {
+        if (s)
+            while (queue.size() > s)
+            {
+                set.erase(queue.front());
+                queue.pop_front();
+            }
+        nMaxSize = s;
+        return nMaxSize;
+    }
+};
+
+#endif

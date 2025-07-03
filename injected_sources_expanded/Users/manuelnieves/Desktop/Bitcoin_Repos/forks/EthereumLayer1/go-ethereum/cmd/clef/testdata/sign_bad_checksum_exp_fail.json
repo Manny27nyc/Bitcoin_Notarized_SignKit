@@ -1,0 +1,28 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+{
+  "jsonrpc": "2.0",
+  "method": "account_signTransaction",
+  "params": [
+    {
+	"from":"0x8a8eafb1cf62bfbeb1741769dae1a9dd47996192",
+	"to":"0x8a8eafb1cf62bfbeb1741769dae1a9dd47996192",
+      "gas": "0x333",
+      "gasPrice": "0x123",
+      "nonce": "0x0",
+      "value": "0x10",
+      "data":
+        "0x4401a6e40000000000000000000000000000000000000000000000000000000000000012"
+    }
+  ],
+  "id": 67
+}

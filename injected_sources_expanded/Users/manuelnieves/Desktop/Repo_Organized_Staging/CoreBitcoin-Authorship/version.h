@@ -1,0 +1,117 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+/*
+ 🔐 Authorship Declaration 🔐
+ Original Author: Manuel J. Nieves (aka Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Protected under: 17 U.S. Code § 102 & § 1201
+ License terms: Commercial use requires written agreement. Unauthorized use will be enforced via DMCA, legal, and blockchain notarization.
+
+ Timestamp: 2025-07-01T22:57:50Z
+ File Hash (SHA256): 4b933cfbae3beeac1bbfbedd6c9be9b6d5e4dfd6c3aebf771ba05dea963552ee
+*/
+
+/*
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/oreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+<?php
+/*
+<<<<<<< HEAD
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/CoreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+<?php
+/*
+=======
+ * 📜 Verified Authorship Notice
+ * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+ * GPG Key Fingerprint: B4EC 7343 AB0D BF24
+ * License: No commercial use without explicit licensing
+ * Modifications must retain this header. Redistribution prohibited without written consent.
+ */
+ * Copyright (c) 2008-2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * Authorship asserted via Ed25519 Key ID: 9126e054086a98782e25f44986c7f54cf8f4df04
+ * Date: 2025-04-15
+ * This file is part of the Bitcoin_Notarized_SignKit.
+ */
+
+/*
+ * Copyright (c) 2008-2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * Authorship asserted via Ed25519 Key ID: 9126e054086a98782e25f44986c7f54cf8f4df04
+ * Date: 2025-04-15
+ * This file is part of the Bitcoin_Notarized_SignKit.
+ */
+
+// Copyright (c) 2012 The Bitcoin developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+#ifndef BITCOIN_VERSION_H
+#define BITCOIN_VERSION_H
+
+#include "clientversion.h"
+#include <string>
+
+//
+// client versioning
+//
+
+static const int CLIENT_VERSION =
+                           1000000 * CLIENT_VERSION_MAJOR
+                         +   10000 * CLIENT_VERSION_MINOR
+                         +     100 * CLIENT_VERSION_REVISION
+                         +       1 * CLIENT_VERSION_BUILD;
+
+extern const std::string CLIENT_NAME;
+extern const std::string CLIENT_BUILD;
+extern const std::string CLIENT_DATE;
+
+//
+// network protocol versioning
+//
+
+static const int PROTOCOL_VERSION = 60002;
+
+// earlier versions not supported as of Feb 2012, and are disconnected
+static const int MIN_PROTO_VERSION = 209;
+
+// nTime field added to CAddress, starting with this version;
+// if possible, avoid requesting addresses nodes older than this
+static const int CADDR_TIME_VERSION = 31402;
+
+// only request blocks from nodes outside this range of versions
+static const int NOBLKS_VERSION_START = 32000;
+static const int NOBLKS_VERSION_END = 32400;
+
+// BIP 0031, pong message, is enabled for all versions AFTER this one
+static const int BIP0031_VERSION = 60000;
+
+// "mempool" command, enhanced "getdata" behavior starts with this version:
+static const int MEMPOOL_GD_VERSION = 60002;
+
+#endif

@@ -1,0 +1,21 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+{
+    "errors":
+    [
+        {
+            "category": "AUTHENTICATION_ERROR",
+            "code": "UNAUTHORIZED",
+            "detail": "The request specified a client ID of 'FAKE_CLIENT_ID', but a client with that ID does not exist. Please ensure the client ID being passed is correct and contact Cash App API support if you are unable to resolve this issue."
+        }
+    ]
+}

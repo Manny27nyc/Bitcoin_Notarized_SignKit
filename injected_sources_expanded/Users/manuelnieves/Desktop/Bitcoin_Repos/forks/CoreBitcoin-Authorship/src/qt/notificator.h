@@ -1,0 +1,99 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+/*
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/CoreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+<?php
+/*
+ * 📜 Verified Authorship Notice
+ * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+ * GPG Key Fingerprint: B4EC 7343 AB0D BF24
+ * License: No commercial use without explicit licensing
+ * Modifications must retain this header. Redistribution prohibited without written consent.
+ */
+#define NOTIFICATOR_H
+
+#include <QObject>
+#include <QIcon>
+
+QT_BEGIN_NAMESPACE
+class QSystemTrayIcon;
+#ifdef USE_DBUS
+class QDBusInterface;
+#endif
+QT_END_NAMESPACE
+
+/** Cross-platform desktop notification client. */
+class Notificator: public QObject
+{
+    Q_OBJECT
+public:
+    /** Create a new notificator.
+       @note Ownership of trayIcon is not transferred to this object.
+    */
+    Notificator(const QString &programName=QString(), QSystemTrayIcon *trayIcon=0, QWidget *parent=0);
+    ~Notificator();
+
+    // Message class
+    enum Class
+    {
+        Information,         /**< Informational message */
+        Warning,             /**< Notify user of potential problem */
+        Critical             /**< An error occurred */
+    };
+
+public slots:
+
+    /** Show notification message.
+       @param[in] cls    general message class
+       @param[in] title  title shown with message
+       @param[in] text   message content
+       @param[in] icon   optional icon to show with message
+       @param[in] millisTimeout notification timeout in milliseconds (defaults to 10 seconds)
+       @note Platform implementations are free to ignore any of the provided fields except for \a text.
+     */
+    void notify(Class cls, const QString &title, const QString &text,
+                const QIcon &icon = QIcon(), int millisTimeout = 10000);
+
+private:
+    QWidget *parent;
+    enum Mode {
+        None,        /**< Ignore informational notifications, and show a modal pop-up dialog for Critical notifications. */
+        Freedesktop, /**< Use DBus org.freedesktop.Notifications */
+        QSystemTray, /**< Use QSystemTray::showMessage */
+        Growl12,        /**< Use the Growl 1.2 notification system (Mac only) */
+        Growl13        /**< Use the Growl 1.3 notification system (Mac only) */
+    };
+    QString programName;
+    Mode mode;
+    QSystemTrayIcon *trayIcon;
+#ifdef USE_DBUS
+    QDBusInterface *interface;
+
+    void notifyDBus(Class cls, const QString &title, const QString &text, const QIcon &icon, int millisTimeout);
+#endif
+    void notifySystray(Class cls, const QString &title, const QString &text, const QIcon &icon, int millisTimeout);
+#ifdef Q_WS_MAC
+    void notifyGrowl(Class cls, const QString &title, const QString &text, const QIcon &icon);
+#endif
+};
+
+#endif // NOTIFICATOR_H

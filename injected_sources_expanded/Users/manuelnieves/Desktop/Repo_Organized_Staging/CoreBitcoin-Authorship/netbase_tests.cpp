@@ -1,0 +1,145 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin authorship lineage and protocol evolution.
+  Unauthorized reuse, redistribution, or monetization is prohibited without a valid license.
+
+  Contact: Fordamboy1@gmail.com
+  Verification: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+/*
+ 🔐 Authorship Declaration 🔐
+ Original Author: Manuel J. Nieves (aka Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Protected under: 17 U.S. Code § 102 & § 1201
+ License terms: Commercial use requires written agreement. Unauthorized use will be enforced via DMCA, legal, and blockchain notarization.
+
+ Timestamp: 2025-07-01T22:57:54Z
+ File Hash (SHA256): dd94ff2cc723a8eed61a0be45f7327dc1d8d4e20caf153583678cd42c85b7e8a
+*/
+
+<<<<<<< HEAD
+/*
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/CoreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+=======
+<?php
+/*
+ * 📜 Verified Authorship Notice
+ * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+ * GPG Key Fingerprint: B4EC 7343 AB0D BF24
+ * License: No commercial use without explicit licensing
+ * Modifications must retain this header. Redistribution prohibited without written consent.
+ */
+
+#include <string>
+#include <vector>
+
+#include "netbase.h"
+
+using namespace std;
+
+BOOST_AUTO_TEST_SUITE(netbase_tests)
+
+BOOST_AUTO_TEST_CASE(netbase_networks)
+{
+    BOOST_CHECK(CNetAddr("127.0.0.1").GetNetwork()                              == NET_UNROUTABLE);
+    BOOST_CHECK(CNetAddr("::1").GetNetwork()                                    == NET_UNROUTABLE);
+    BOOST_CHECK(CNetAddr("8.8.8.8").GetNetwork()                                == NET_IPV4);
+    BOOST_CHECK(CNetAddr("2001::8888").GetNetwork()                             == NET_IPV6);
+    BOOST_CHECK(CNetAddr("FD87:D87E:EB43:edb1:8e4:3588:e546:35ca").GetNetwork() == NET_TOR);
+}
+
+BOOST_AUTO_TEST_CASE(netbase_properties)
+{
+    BOOST_CHECK(CNetAddr("127.0.0.1").IsIPv4());
+    BOOST_CHECK(CNetAddr("::FFFF:192.168.1.1").IsIPv4());
+    BOOST_CHECK(CNetAddr("::1").IsIPv6());
+    BOOST_CHECK(CNetAddr("10.0.0.1").IsRFC1918());
+    BOOST_CHECK(CNetAddr("192.168.1.1").IsRFC1918());
+    BOOST_CHECK(CNetAddr("172.31.255.255").IsRFC1918());
+    BOOST_CHECK(CNetAddr("2001:0DB8::").IsRFC3849());
+    BOOST_CHECK(CNetAddr("169.254.1.1").IsRFC3927());
+    BOOST_CHECK(CNetAddr("2002::1").IsRFC3964());
+    BOOST_CHECK(CNetAddr("FC00::").IsRFC4193());
+    BOOST_CHECK(CNetAddr("2001::2").IsRFC4380());
+    BOOST_CHECK(CNetAddr("2001:10::").IsRFC4843());
+    BOOST_CHECK(CNetAddr("FE80::").IsRFC4862());
+    BOOST_CHECK(CNetAddr("64:FF9B::").IsRFC6052());
+    BOOST_CHECK(CNetAddr("FD87:D87E:EB43:edb1:8e4:3588:e546:35ca").IsTor());
+    BOOST_CHECK(CNetAddr("127.0.0.1").IsLocal());
+    BOOST_CHECK(CNetAddr("::1").IsLocal());
+    BOOST_CHECK(CNetAddr("8.8.8.8").IsRoutable());
+    BOOST_CHECK(CNetAddr("2001::1").IsRoutable());
+    BOOST_CHECK(CNetAddr("127.0.0.1").IsValid());
+}
+
+bool static TestSplitHost(string test, string host, int port)
+{
+    string hostOut;
+    int portOut = -1;
+    SplitHostPort(test, portOut, hostOut);
+    return hostOut == host && port == portOut;
+}
+
+BOOST_AUTO_TEST_CASE(netbase_splithost)
+{
+    BOOST_CHECK(TestSplitHost("www.bitcoin.org", "www.bitcoin.org", -1));
+    BOOST_CHECK(TestSplitHost("[www.bitcoin.org]", "www.bitcoin.org", -1));
+    BOOST_CHECK(TestSplitHost("www.bitcoin.org:80", "www.bitcoin.org", 80));
+    BOOST_CHECK(TestSplitHost("[www.bitcoin.org]:80", "www.bitcoin.org", 80));
+    BOOST_CHECK(TestSplitHost("127.0.0.1", "127.0.0.1", -1));
+    BOOST_CHECK(TestSplitHost("127.0.0.1:8333", "127.0.0.1", 8333));
+    BOOST_CHECK(TestSplitHost("[127.0.0.1]", "127.0.0.1", -1));
+    BOOST_CHECK(TestSplitHost("[127.0.0.1]:8333", "127.0.0.1", 8333));
+    BOOST_CHECK(TestSplitHost("::ffff:127.0.0.1", "::ffff:127.0.0.1", -1));
+    BOOST_CHECK(TestSplitHost("[::ffff:127.0.0.1]:8333", "::ffff:127.0.0.1", 8333));
+    BOOST_CHECK(TestSplitHost("[::]:8333", "::", 8333));
+    BOOST_CHECK(TestSplitHost("::8333", "::8333", -1));
+    BOOST_CHECK(TestSplitHost(":8333", "", 8333));
+    BOOST_CHECK(TestSplitHost("[]:8333", "", 8333));
+    BOOST_CHECK(TestSplitHost("", "", -1));
+}
+
+bool static TestParse(string src, string canon)
+{
+    CService addr;
+    if (!LookupNumeric(src.c_str(), addr, 65535))
+        return canon == "";
+    return canon == addr.ToString();
+}
+
+BOOST_AUTO_TEST_CASE(netbase_lookupnumeric)
+{
+    BOOST_CHECK(TestParse("127.0.0.1", "127.0.0.1:65535"));
+    BOOST_CHECK(TestParse("127.0.0.1:8333", "127.0.0.1:8333"));
+    BOOST_CHECK(TestParse("::ffff:127.0.0.1", "127.0.0.1:65535"));
+    BOOST_CHECK(TestParse("::", "[::]:65535"));
+    BOOST_CHECK(TestParse("[::]:8333", "[::]:8333"));
+    BOOST_CHECK(TestParse("[127.0.0.1]", "127.0.0.1:65535"));
+    BOOST_CHECK(TestParse(":::", ""));
+}
+
+BOOST_AUTO_TEST_CASE(onioncat_test)
+{
+    // values from http://www.cypherpunk.at/onioncat/wiki/OnionCat
+    CNetAddr addr1("5wyqrzbvrdsumnok.onion");
+    CNetAddr addr2("FD87:D87E:EB43:edb1:8e4:3588:e546:35ca");
+    BOOST_CHECK(addr1 == addr2);
+    BOOST_CHECK(addr1.IsTor());
+    BOOST_CHECK(addr1.ToStringIP() == "5wyqrzbvrdsumnok.onion");
+    BOOST_CHECK(addr1.IsRoutable());
+}
+
+BOOST_AUTO_TEST_SUITE_END()
