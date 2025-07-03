@@ -1,3 +1,5 @@
+![DMCA Notice](public/DMCA_Coinbase_Takedown_Notice_20250703.png)
+
 ## 📁 Licensing Enforcement Records – 2025
 
 All enforcement actions below are notarized, GPG-signed, timestamped, and published to IPFS. They represent formal licensing violations of the Bitcoin protocol, authored and protected by **Manuel J. Nieves** (Satoshi Norkomoto) under 17 U.S. Code § 102 and § 1201.
