@@ -1,0 +1,30 @@
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/inject_authorship_notice.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/insert_authorship_headers.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/scan_all_forks.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/share/genbuild.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/share/qt/make_windows_icon.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/ci/ci 2.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/ci/ci 3.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/tools/check-abi 2.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/tools/check-abi 3.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/create_notice.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/enforcement_tools/scan_binance_reuse.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/global_claims_push.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/inject_authorship_notice.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/insert_authorship_headers.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/reuse_evidence/cashapp_20250702/misk/.github/workflows/prepare_mkdocs.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/reuse_evidence/cashapp_20250702/misk/misk-jooq/jooq-test-regenerate.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/reuse_evidence/cashapp_20250702/misk/misk-metrics-digester/src/main/kotlin/misk/metrics/digester/build-wire.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/reuse_evidence/cashapp_20250702/misk/misk-tailwind/tailwind-config/start.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/reuse_evidence/cashapp_20250702/misk/samples/exemplar/config/start.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/run_country_scans.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/scan_all_forks.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/scripts/monitoring/monitor_repo_updates.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/share/genbuild.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/share/qt/make_windows_icon.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/ci/ci 2.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/ci/ci 3.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/tools/check-abi 2.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/src_recovered/secp256k1/tools/check-abi 3.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/validate_full_repos.sh
+/Users/manuelnieves/Bitcoin_Notarized_SignKit/validate_repos.sh
