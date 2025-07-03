@@ -3,3 +3,4 @@ Thu Jul  3 16:19:50 EDT 2025: 📩 Licensing notice sent to CoreBitcoin maintain
 Thu Jul  3 16:37:27 EDT 2025: 📄 Blockchain.com licensing PDF and royalty invoice signed. Enforcement ZIP bundle created.
 Thu Jul  3 16:57:43 EDT 2025: ✉️ Blockchain.com licensing claim delivered via Gmail with 4 enforcement attachments.
 Thu Jul  3 17:15:16 EDT 2025: 🟣 Licensing notice sent to Ethereum Foundation. Full ZIP bundle and signed royalty invoice included.
+IPFS Archive: https://ipfs.io/ipfs/QmaiezhXxrotdtDzpLn3yEHePugW8BvnQkXiBwTNYYG1Ex
