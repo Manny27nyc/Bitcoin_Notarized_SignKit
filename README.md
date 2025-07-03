@@ -109,3 +109,4 @@ All unauthorized use — including forks, derivative protocols, wallet integrati
 - Legal action under civil and criminal intellectual property statutes
 
 For licensing inquiries, contact: **Fordamboy1@gmail.com
+[🔗 View Full Enforcement Bundle on IPFS](https://ipfs.io/ipfs/QmZ36JwwGjaVhehfyfw697o3kWJkJmANUzWbYvgB1AF23c)
