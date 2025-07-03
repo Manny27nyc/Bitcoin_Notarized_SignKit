@@ -1,0 +1,99 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin IP and subject to active licensing enforcement.
+  Unauthorized reuse, modification, or redistribution is strictly prohibited.
+
+  Contact: Fordamboy1@gmail.com
+  Authorship Proof: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+<<<<<<< HEAD
+/*
+ 🔐 Authorship Enforcement Header
+ Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ GPG Fingerprint: B4EC 7343 AB0D BF24
+ Public Key: 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b148...
+ Repository: https://github.com/Manny27nyc/CoreBitcoin-Authorship
+ Licensing: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+
+ Redistribution or claim of authorship without license is unauthorized
+ and subject to takedown, legal enforcement, and public notice.
+*/
+
+=======
+>>>>>>> e48ecef (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343 AB0D BF24))
+<?php
+/*
+ * 📜 Verified Authorship Notice
+ * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+ * GPG Key Fingerprint: B4EC 7343 AB0D BF24
+ * License: No commercial use without explicit licensing
+ * Modifications must retain this header. Redistribution prohibited without written consent.
+ */
+#define RPCCONSOLE_H
+
+#include <QDialog>
+
+namespace Ui {
+    class RPCConsole;
+}
+class ClientModel;
+
+/** Local Bitcoin RPC console. */
+class RPCConsole: public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit RPCConsole(QWidget *parent = 0);
+    ~RPCConsole();
+
+    void setClientModel(ClientModel *model);
+
+    enum MessageClass {
+        MC_ERROR,
+        MC_DEBUG,
+        CMD_REQUEST,
+        CMD_REPLY,
+        CMD_ERROR
+    };
+
+protected:
+    virtual bool eventFilter(QObject* obj, QEvent *event);
+
+private slots:
+    void on_lineEdit_returnPressed();
+    void on_tabWidget_currentChanged(int index);
+    /** open the debug.log from the current datadir */
+    void on_openDebugLogfileButton_clicked();
+    /** display messagebox with program parameters (same as bitcoin-qt --help) */
+    void on_showCLOptionsButton_clicked();
+
+public slots:
+    void clear();
+    void message(int category, const QString &message, bool html = false);
+    /** Set number of connections shown in the UI */
+    void setNumConnections(int count);
+    /** Set number of blocks shown in the UI */
+    void setNumBlocks(int count, int countOfPeers);
+    /** Go forward or back in history */
+    void browseHistory(int offset);
+    /** Scroll console view to end */
+    void scrollToEnd();
+signals:
+    // For RPC command executor
+    void stopExecutor();
+    void cmdRequest(const QString &command);
+
+private:
+    Ui::RPCConsole *ui;
+    ClientModel *clientModel;
+    QStringList history;
+    int historyPtr;
+
+    void startExecutor();
+};
+
+#endif // RPCCONSOLE_H

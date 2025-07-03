@@ -1,0 +1,25 @@
+/*
+  © 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
+  Protected under 17 U.S. Code § 102 & § 1201.
+
+  This file is part of the original Bitcoin IP and subject to active licensing enforcement.
+  Unauthorized reuse, modification, or redistribution is strictly prohibited.
+
+  Contact: Fordamboy1@gmail.com
+  Authorship Proof: https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit
+*/
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TestiOSPodfile.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
