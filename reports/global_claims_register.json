@@ -1,0 +1,36 @@
+{
+  "claims": {
+    "claims": [
+      {
+        "bundle": "Bitcoin_Notarized_Bundle_Public_v1.zip",
+        "signature": "Bitcoin_Notarized_Bundle_Public_v1.zip.asc",
+        "sha256": "a8f0abdb31d60ef1b3c5b2165bf8f77edd8880b27fa5cc4f5c1e373a9031d8e2",
+        "origin": "SecureArchive_Bitcoin2025",
+        "archived_on": "2025-07-02"
+      },
+      {
+        "entity": "Blockchain.com",
+        "notice": "Licensing_Claim_BlockchainCom.pdf",
+        "invoice": "BlockchainCom_Royalty_Invoice.pdf",
+        "gpg": "enforcement_log.txt.asc",
+        "date": "2025-07-03",
+        "ipfs_cid": "QmWCuLPhqasLmn2E3My6zLrEcWL9udvTwHz5tZrtTgpcQp",
+        "status": "Published"
+      }
+    ]
+  },
+  "claims_hashes": [
+    {
+      "date": "2025-07-03",
+      "bundle": "global_claims_register_hashes_bundle.zip",
+      "ipfs_cid": "QmTfcapBMeMrmoreYVGYC5c1KvfJcjZJWBajYnJVaHqTSh",
+      "gpg": "global_claims_register_hashes.sha256.txt.asc"
+    },
+    {
+      "date": "2025-07-03",
+      "bundle": "global_claims_register_bundle_signed.zip",
+      "ipfs_cid": "QmWckPLDtsEKuBGpakzdnZJTLhzjPxnme2CXT6PN1UFsPC",
+      "gpg": "global_claims_register.sha256.txt.asc"
+    }
+  ]
+}

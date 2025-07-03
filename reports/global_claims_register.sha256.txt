@@ -1,0 +1,1 @@
+9027127ec941b939bd9ff594b54cf5826afbc3e9015d6eef9bba71e52473827a  /Users/manuelnieves/Bitcoin_Notarized_SignKit/reports/global_claims_register.json
