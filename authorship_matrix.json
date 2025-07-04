@@ -6,5 +6,13 @@
     "signature_file": "whitepaper_release/Bitcoin_Whitepaper.pdf.asc",
     "sha256_file": "whitepaper_release/Bitcoin_Whitepaper.sha256.txt",
     "description": "Official Bitcoin whitepaper release authored by Manuel J. Nieves (Satoshi Norkomoto), including PDF, GPG signature, and hash verification."
+  },
+  {
+    "source_group": "ForceiCloud Extracted",
+    "index_file": "src_recovered/ForceiCloud_Index.md",
+    "signature_file": "src_recovered/ForceiCloud_Index.md.asc",
+    "description": "Recovered source files from iCloud-injected ForceiCloud paths, including .cpp assets authored by Manuel J. Nieves (aka Satoshi Norkomoto).",
+    "sha256_index": "aa15c7e26d1ba8a89e51d15d3909b4fe00aaeb6f96253443a43815ba54392b1b",
+    "sha256_signature": "73b956b84ed305d80c1f1caf469a2ae1e551206469857ef956a2a00aebb4bef1"
   }
 ]
