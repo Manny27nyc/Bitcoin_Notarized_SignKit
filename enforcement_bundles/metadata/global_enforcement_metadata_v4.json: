@@ -1,0 +1,17 @@
+{
+  "eth_foundation_2009-claim": {
+    "target": "Ethereum Foundation",
+    "tag": "eth_foundation_2009-claim",
+    "date": "2025-07-04",
+    "bundle_files": [
+      "Ethereum_Licensing_Enforcement_20250702.zip",
+      "Licensing_Claim_Ethereum_Bundle.zip",
+      "Ethereum_Enforcement_20250703.zip"
+    ],
+    "pdf_notice": "Licensing_Claim_Ethereum.md",
+    "json_invoice": "Ethereum_royalty_invoice.json",
+    "ipfs_links": [],
+    "authorship_verification": "https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit",
+    "status": "active"
+  }
+}
