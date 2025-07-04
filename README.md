@@ -113,3 +113,18 @@ All unauthorized use — including forks, derivative protocols, wallet integrati
 For licensing inquiries, contact: **Fordamboy1@gmail.com
 [🔗 View Full Enforcement Bundle on IPFS](https://ipfs.io/ipfs/QmZ36JwwGjaVhehfyfw697o3kWJkJmANUzWbYvgB1AF23c)
 [🔗 View Full Enforcement Bundle on IPFS](https://ipfs.io/ipfs/QmUizZSHGXL9ySE9XdtdHRbJTzaxbqQgRjCKkHyhexfERt)
+
+### 🔐 Notarized Authorship Bundle — July 4, 2025
+
+This bundle includes verified authorship material and enforcement documentation:
+
+- 📄 `Bitcoin_Whitepaper.pdf` — GPG signed  
+- 📄 `ForceiCloud_Index.md` — Indexed recovered .cpp files  
+- 📁 `authorship_matrix.json` — All verified source claims
+
+📦 **Download:**  
+[Notarized_Authorship_Bundle_20250704.zip (GitHub)](https://github.com/Manny27nyc/Bitcoin_Notarized_SignKit/releases)  
+[Notarized_Authorship_Bundle_20250704.zip (IPFS)](https://ipfs.io/ipfs/QmABC123...)
+
+🧾 SHA256 + `.asc` signatures included in bundle.
+
