@@ -4,3 +4,12 @@ Thu Jul  3 16:37:27 EDT 2025: 📄 Blockchain.com licensing PDF and royalty invo
 Thu Jul  3 16:57:43 EDT 2025: ✉️ Blockchain.com licensing claim delivered via Gmail with 4 enforcement attachments.
 Thu Jul  3 17:15:16 EDT 2025: 🟣 Licensing notice sent to Ethereum Foundation. Full ZIP bundle and signed royalty invoice included.
 IPFS Archive: https://ipfs.io/ipfs/QmaiezhXxrotdtDzpLn3yEHePugW8BvnQkXiBwTNYYG1Ex
+Thu Jul  3 18:37:30 EDT 2025: Injected and pushed SSD-recovered CoreBitcoin authorship bundle.
+Thu Jul  3 18:44:27 EDT 2025: IPFS published Genesis_Audit_Expanded_20250703.zip — CID: QmPtcN1xmc9KZ7m9j7aUfexF9NYiRQu43yxpQF5iVro6K2
+Thu Jul  3 20:14:06 EDT 2025: Sent enforcement emails to Ethereum, PayPal, Twitter, Gemini via Mail.app
+Thu Jul  3 20:15:24 EDT 2025: All ZIP bundles published to IPFS (Coinbase, Ethereum, Kraken, Twitter, etc.)
+Thu Jul  3 23:49:20 EDT 2025: CoreBitcoinSimulator enforcement bundle uploaded — CID: QmXenbLjPq5Zpumr8qZwfABfvAjcDjSki885gyTD3uX1pN
+Fri Jul  4 00:41:18 EDT 2025: Notice sent to noureddinel@example.com regarding core-bitcoin-net-simulator reuse.
+Fri Jul  4 00:47:17 EDT 2025: GPG-signed royalty invoice issued and published to IPFS (CID: QmSLT9XAmzYomqN8W5ckeusTAncWwcnMMawy3wVWMJKF74) for CoreBitcoinSimulator.
+Fri Jul  4 00:54:54 EDT 2025: Published updated global claims register bundle to IPFS (CID: QmZbTjV9wAgKNGbLzvuKWGLyBm5umgfx8DWGJibHUGaoPf)
+Fri Jul  4 00:59:02 EDT 2025: Composer authorship bundle pinned to IPFS (CID: QmSBqMfvZ63NRAzwXeUakjXaqL9Ni1xZJBhuJCdtJM7woF)
