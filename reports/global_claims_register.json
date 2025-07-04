@@ -16,6 +16,18 @@
         "date": "2025-07-03",
         "ipfs_cid": "QmWCuLPhqasLmn2E3My6zLrEcWL9udvTwHz5tZrtTgpcQp",
         "status": "Published"
+      },
+      {
+        "entity": "CoreBitcoinSimulator",
+        "repository": "https://github.com/noureddinel/core-bitcoin-net-simulator",
+        "violation": "Unauthorized reuse of Bitcoin protocol code (main.cpp)",
+        "gpg_signature": "Royalty_Invoice_CoreBitcoinSimulator.pdf.asc",
+        "ipfs_cid": "QmSLT9XAmzYomqN8W5ckeusTAncWwcnMMawy3wVWMJKF74",
+        "invoice_amount_usd": 1370000,
+        "notice": "Licensing_Claim_CoreBitcoinSimulator.pdf",
+        "invoice": "Royalty_Invoice_CoreBitcoinSimulator.pdf",
+        "date": "2025-07-04",
+        "status": "Published"
       }
     ]
   },
