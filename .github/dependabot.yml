@@ -1,7 +1,13 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"          # change to your ecosystem
-    directory: "/"                    # adjust path if needed
+  - package-ecosystem: "npm"           # Change if not using Node/npm
+    directory: "/"                     # Root directory
     schedule:
-      interval: "weekly"             # daily, weekly, or monthly
-    open-pull-requests-limit: 0      # disables version update PRs
+      interval: "weekly"               # Can be "daily", "weekly", or "monthly"
+    open-pull-requests-limit: 5        # Allow PRs for dependency updates
+    allow:
+      - dependency-type: "all"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
