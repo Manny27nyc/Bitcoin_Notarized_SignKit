@@ -1,0 +1,10 @@
+[
+  {
+    "source_group": "Bitcoin Whitepaper Release",
+    "index_file": "whitepaper_release/Bitcoin_Whitepaper_Authored_ManuelNieves.txt",
+    "pdf_file": "whitepaper_release/Bitcoin_Whitepaper.pdf",
+    "signature_file": "whitepaper_release/Bitcoin_Whitepaper.pdf.asc",
+    "sha256_file": "whitepaper_release/Bitcoin_Whitepaper.sha256.txt",
+    "description": "Official Bitcoin whitepaper release authored by Manuel J. Nieves (Satoshi Norkomoto), including PDF, GPG signature, and hash verification."
+  }
+]
